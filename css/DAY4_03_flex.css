@@ -1,0 +1,29 @@
+*,
+body,
+html {
+	box-sizing: border-box;
+	font-family: 微軟正黑體;
+}
+
+.wrap {
+	padding: 50px;
+}
+
+.content{
+	width: 700px;
+	height: 500px;
+	background-color: darkgoldenrod;
+	padding: 10px;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.item{
+	margin: 10px;
+	padding: 20px;
+	background-color: teal;
+	color: #fff;
+	font-style: 36px;
+	height: 100px;
+}

@@ -1,0 +1,50 @@
+*,
+body,
+html {
+	box-sizing: border-box;
+	font-family: 微軟正黑體;
+	text-decoration: none;
+}
+
+.wrap {
+	padding: 50px;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item{
+	border: 1px solid black;
+	padding: 10px;
+	width: 33%;
+	margin-bottom: 20px;
+}
+
+@media(max-width:992px){
+	.item{
+		width: 48%;
+	}
+}
+@media(max-width:552px){
+	.item{
+		width: 100%;
+	}
+}
+
+.title{
+	font-size: 30px;
+	font-weight: bolder;
+	margin-bottom: 10px;
+}
+
+.img01{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+

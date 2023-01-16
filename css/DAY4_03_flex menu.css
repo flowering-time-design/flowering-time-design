@@ -1,0 +1,66 @@
+*,
+body,
+html {
+	box-sizing: border-box;
+	font-family: 微軟正黑體;
+	text-decoration: none;
+}
+
+.wrap {
+	padding: 50px;
+}
+
+.head{
+	background-color:rgb(0, 104, 22);
+	padding: 15px;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+
+}
+
+.item{
+	padding: 15px 20px;
+	border: 3px;
+	margin: 10px;
+	border-style: dotted;
+	transition: all 0.8s;
+	color: white;
+
+	
+}
+.logo{
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	
+}
+
+@media (max-width:750px) {
+.head{
+	background-color: rgb(141, 105, 38);
+font-size: 10px;
+
+}
+.item:hover{
+	background-color: #fff;
+	color: rgb(141, 105, 38);
+	
+}
+}
+.menu{
+	/* background-color: rgb(88, 88, 189); */
+	display: flex;
+	justify-content:flex-end;
+	align-items: center;
+	color: white;
+	font-family: 'Noto Sans TC', sans-serif;
+	
+	
+}
+
+.item:hover{
+	background-color: #fff;
+	color: rgb(0, 104, 22);
+	
+}

@@ -1,0 +1,97 @@
+*,
+body,
+html {
+	box-sizing: border-box;
+	font-family: 微軟正黑體;
+}
+
+.wrap {
+	padding: 50px;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+.container {
+	background: #004466;
+	width: 100%;
+	height: 450px;
+	padding: 10px;
+	margin-bottom: 100px;
+}
+
+.item {
+	width: 200px;
+	height: 80px;
+	margin: 10px;
+	padding: 20px;
+	background: #00ffa2;
+	color: #004466;
+	font-size: 36px;
+	text-align: center;
+}
+
+/* ******************************** */
+.box1 {
+	display: flex;
+}
+
+/* justify-content */
+.box2 {
+	display:flex;
+	justify-content: flex-start;
+}
+
+
+.box3 {
+	display: flex;
+	justify-content: center;
+}
+
+
+.box4 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.box5 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box6 {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* align-items */
+.box7 {
+	display: flex;
+	align-items: flex-start;
+}
+
+.box8 {
+	display: flex;
+	align-items: center;
+}
+
+.box9 {
+	display: flex;
+	align-items: flex-end;
+}
+
+.box10 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+}
+
+.box11 {
+	display: flex;
+	flex-wrap: wrap;
+}

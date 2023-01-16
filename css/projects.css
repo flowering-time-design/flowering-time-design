@@ -1,0 +1,346 @@
+*,
+body,
+html {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+  text-decoration: none;
+  color: black;
+  scroll-behavior: smooth;
+}
+
+[lang="Lora"] {
+  font-family: "Lora", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  height: 48px;
+  /* padding: 16px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  font-weight: 500;
+  position: relative;
+  z-index: 999;
+}
+
+.text-bold {
+  color: black;
+}
+.logo {
+  margin-left: 32px;
+  color: black;
+  font-size: 16px;
+}
+
+.showmenu {
+  display: none;
+  color: black;
+}
+
+.link-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  right: 3vw;
+  width: 500px;
+}
+
+.theme {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  color: rgb(150, 150, 150);
+  transition: all 0.5s;
+  transition-duration: 0.5s;
+}
+
+.theme:hover {
+  color: black;
+}
+
+/* Projects定住黑色 */
+.theme.two {
+  color: black;
+}
+
+/* 漢堡選單 */
+@media (max-width: 767px) {
+  /* 固定表頭，記得設定寬度 100% */
+
+  .logo {
+    width: 960px;
+  }
+
+  .menu {
+    position: fixed;
+    width: 100%;
+  }
+
+  #link-group {
+    background-color: white;
+    /* 隱藏選單 */
+    max-height: 0px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+    /* 取消 display: flex; */
+    display: block;
+    /* 設定絕對定位 */
+    position: absolute;
+    /* 改高度 */
+    top: 48px;
+    /* 選單滿版呈現，也可以設定 left:0; right:0; */
+    left: 0;
+    right: 0;
+    /* width: 100%; */
+    text-align: center;
+    transition: max-height 0.8s;
+  }
+
+  .menu li {
+    background: white;
+    display: inline-block;
+    border-bottom: 1px solid #efefef;
+  }
+
+  .theme {
+    transition: none;
+    transition-duration: 0s;
+    padding: 1em;
+  }
+
+  .theme:hover {
+    background: #303030;
+    color: white;
+  }
+
+  .showmenu {
+    display: block;
+    margin-right: 32px;
+    text-align: end;
+  }
+
+  .menu-show #link-group {
+    max-height: 1000px;
+  }
+
+  .section01 {
+    padding-top: 48px;
+  }
+}
+
+.wrap {
+  /* padding: 0 10px; */
+  /* width: 100vw; */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.section01 {
+  display: flex;
+  flex-direction: column;
+  /* 同一層排中間 */
+  align-items: center;
+  justify-content: center;
+  height: 196px;
+  background-color: white;
+}
+
+.subtitle-drawing {
+  font-size: 48px;
+  text-align: center;
+  color: black;
+  font-weight: 400;
+}
+
+.cssanimation span {
+  width: auto;
+  color: white;
+}
+
+.p-drawing {
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* RWD */
+/* xs - Extra small devices (portrait phones, less than 426px) */
+@media (max-width: 425.98px) {
+  .logo {
+    font-size: 14px;
+  }
+
+  .section01 {
+    height: 144px;
+  }
+
+  .subtitle-drawing {
+    font-size: 30px;
+  }
+
+  .p-drawing {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 575.98px) {
+  .subtitle-drawing {
+    font-size: 40px;
+  }
+
+  .p-drawing {
+    font-size: 17px;
+  }
+}
+
+/* sm - Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* md - Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* lg - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* xl - Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* RWD */
+/* xs - Extra small devices (portrait phones, less than 426px) */
+@media (max-width: 425.98px) {
+  #contact {
+    height: 96px;
+  }
+
+  #p-contact {
+    font-size: 14px;
+  }
+
+  #copyright {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 575.98px) {
+  #contact {
+    height: 96px;
+  }
+
+  #p-contact {
+    font-size: 16px;
+  }
+
+  #copyright {
+    font-size: 12px;
+  }
+}
+
+/* sm - Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* md - Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #link-group > #contact {
+    display: none;
+  }
+}
+
+/* lg - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #link-group > #contact {
+    display: none;
+  }
+}
+
+/* xl - Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #link-group > #contact {
+    display: none;
+  }
+}
+
+#gotop {
+  position: fixed;
+  z-index: 90;
+  right: 15px;
+  bottom: 100px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background: #ad7d37;
+  line-height: 50px;
+  border-radius: 50%;
+  transition: all 0s;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#gotop :hover {
+  background: #976e30;
+  border-radius: 50%;
+  /* width: 50px;
+  height: 50px; */
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.arrow-picture {
+  width: 30px;
+}
+
+/* contact區塊 */
+.contact {
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  /* 同一層排中間 */
+  align-items: center;
+  justify-content: center;
+}
+
+.p-contact {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.social-logo {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+}
+
+.cssanimation span {
+  display: inline-block;
+}
