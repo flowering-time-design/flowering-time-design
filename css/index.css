@@ -726,8 +726,8 @@ a {
   top: 42.5vw;
   width: 5vw;
   height: 5vw;
-  background: url(../imgs/book.JPG);
-  background-size: cover;
+  background: url(../imgs/train.jpg);
+  background-size: 170%;
   background-position: center;
 }
 @media only screen and (max-width: 580px) {
