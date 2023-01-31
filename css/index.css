@@ -369,7 +369,7 @@ a {
     font-size: 22px;
   }
   #grid-container {
-    height: 421vh;
+    height: 458vh;
   }
 }
 
@@ -402,7 +402,7 @@ a {
   }
 
   #grid-container {
-    height: 426vh;
+    height: 476vh;
   }
 }
 
@@ -425,7 +425,7 @@ a {
   }
 
   #grid-container {
-    height: 420vh;
+    height: 476vh;
   }
 }
 
@@ -448,7 +448,7 @@ a {
   }
 
   #grid-container {
-    height: 427vh;
+    height: 488vh;
   }
 }
 
@@ -459,7 +459,7 @@ a {
   }
 
   #grid-container {
-    height: 470vh;
+    height: 520vh;
   }
 }
 
@@ -549,7 +549,7 @@ a {
 /* Grid almost fully pulled from https://www.rino-pelle.com/ */
 .grid-container {
   width: 100vw;
-  height: 500vh;
+  height: 540vh;
   position: relative;
   background: #ece6da;
   z-index: -2;
