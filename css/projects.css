@@ -233,6 +233,9 @@ a {
   #copyright {
     font-size: 10px;
   }
+  #gotop {
+    right: 15px;
+  }
 }
 
 @media (min-width: 426px) and (max-width: 575.98px) {
@@ -247,10 +250,16 @@ a {
   #copyright {
     font-size: 12px;
   }
+  #gotop {
+    right: 15px;
+  }
 }
 
 /* sm - Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  #gotop {
+    right: 15px;
+  }
 }
 
 /* md - Medium devices (tablets, 768px and up) */
@@ -274,7 +283,7 @@ a {
   }
 }
 
-#gotop {
+.gotop {
   position: fixed;
   z-index: 90;
   right: 15px;

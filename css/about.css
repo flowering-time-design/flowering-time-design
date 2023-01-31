@@ -65,7 +65,7 @@ a {
   color: black;
 }
 
-/* Drawing定住黑色 */
+/* Projects定住黑色 */
 .theme.one {
   color: black;
 }
@@ -191,17 +191,9 @@ a {
   .p-drawing {
     font-size: 14px;
   }
-
-  #gotop {
-    right: 15px;
-  }
 }
 
 @media (min-width: 426px) and (max-width: 575.98px) {
-  .section01 {
-    /* height: 144px; */
-  }
-
   .subtitle-drawing {
     font-size: 40px;
   }
@@ -209,17 +201,10 @@ a {
   .p-drawing {
     font-size: 17px;
   }
-
-  #gotop {
-    right: 15px;
-  }
 }
 
 /* sm - Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  #gotop {
-    right: 15px;
-  }
 }
 
 /* md - Medium devices (tablets, 768px and up) */
@@ -248,6 +233,9 @@ a {
   #copyright {
     font-size: 10px;
   }
+  #gotop {
+    right: 15px;
+  }
 }
 
 @media (min-width: 426px) and (max-width: 575.98px) {
@@ -262,10 +250,16 @@ a {
   #copyright {
     font-size: 12px;
   }
+  #gotop {
+    right: 15px;
+  }
 }
 
 /* sm - Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  #gotop {
+    right: 15px;
+  }
 }
 
 /* md - Medium devices (tablets, 768px and up) */
@@ -335,7 +329,6 @@ a {
   /* 同一層排中間 */
   align-items: center;
   justify-content: center;
-  background: white;
 }
 
 .p-contact {
