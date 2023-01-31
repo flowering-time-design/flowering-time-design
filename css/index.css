@@ -659,6 +659,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 @media only screen and (max-width: 580px) {
   .gridLayer:nth-child(4) .gridBlock {
     top: 30.278vw;
