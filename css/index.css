@@ -939,16 +939,16 @@ a {
   align-items: center;
 }
 
-#mn {
-  margin-bottom: 0;
-  display: flex;
-  align-items: center;
-}
-
 .text-content2 > p > img {
   width: 24px;
   height: auto;
   margin-right: 8px;
+}
+
+#mn {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
 }
 
 .text-img {
