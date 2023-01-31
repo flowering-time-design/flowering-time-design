@@ -603,7 +603,7 @@ a {
   left: 20vw;
   width: 10vw;
   height: 10vw;
-  background: url(../imgs/paradise_kiss.PNG);
+  background: url(../imgs/travel02.JPG);
   background-size: contain;
 }
 @media only screen and (max-width: 580px) {
@@ -637,7 +637,7 @@ a {
   top: 25vw;
   width: 15vw;
   height: 15vw;
-  background: url(../imgs/take-photo.jpg);
+  background: url(../imgs/tainan.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -654,8 +654,8 @@ a {
   left: 17.5vw;
   width: 30vw;
   height: 30vw;
-  background: url(../imgs/travel02.JPG);
-  background-size: 100%;
+  background: url(../imgs/take-photo.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -726,7 +726,7 @@ a {
   top: 42.5vw;
   width: 5vw;
   height: 5vw;
-  background: url(../imgs/tainan.jpg);
+  background: url(../imgs/book.JPG);
   background-size: cover;
   background-position: center;
 }
