@@ -946,14 +946,14 @@ a {
   margin-right: 8px;
 }
 
-.text-img {
-  margin-top: 40px;
-  width: 100%;
-  height: auto;
-}
-
 #mn {
   margin-bottom: 0;
   display: flex;
   align-items: center;
+}
+
+.text-img {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
 }
