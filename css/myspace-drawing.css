@@ -1752,6 +1752,11 @@ a {
   display: inline-block;
 }
 
+.animate__fadeInUp {
+  animation-fill-mode: both;
+  animation-duration: 1s;
+}
+
 .more {
   /* font-style: italic; */
   color: #ad7d37;
