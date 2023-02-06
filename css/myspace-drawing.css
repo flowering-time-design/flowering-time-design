@@ -1214,8 +1214,8 @@ a {
   }
 
   #section03 {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   #card-title {
@@ -1337,6 +1337,11 @@ a {
   #col2 {
     margin-bottom: 0;
     margin-top: 40px;
+  }
+
+  #section03 {
+    padding-right: 40px;
+    padding-left: 40px;
   }
 }
 
@@ -1500,8 +1505,8 @@ a {
   }
 
   #section03 {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 80px;
+    padding-left: 80px;
   }
 }
 
