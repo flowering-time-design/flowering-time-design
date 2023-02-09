@@ -1834,15 +1834,15 @@ a {
 /* fadeIn */
 .fadeIn {
   animation-name: fadeInAnime;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
-  opacity: 0;
+  opacity: 1;
 }
 
 @keyframes fadeInAnime {
   from {
-    opacity: 0;
-    transform: translateY(100px);
+    opacity: 1;
+    transform: translateY(250px);
   }
 
   to {
