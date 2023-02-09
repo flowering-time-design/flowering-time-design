@@ -668,6 +668,11 @@ a {
     height: 38vw;
   }
 }
+
+/* .gridLayer:nth-child(4) .centerBlock {
+  background: url(../imgs/take-photo.jpg);
+} */
+
 .gridLayer:nth-child(5) {
   z-index: 1;
 }
@@ -956,4 +961,30 @@ a {
   margin-top: 40px;
   width: 100%;
   height: auto;
+}
+
+/* fadeIn */
+.fadeIn {
+  animation-name: fadeInAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+
+.fadeInTrigger {
+  opacity: 0;
 }

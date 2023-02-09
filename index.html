@@ -16,15 +16,17 @@
         href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css"
         rel="stylesheet"
       />
-      <link
+      <!-- <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
         rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
         crossorigin="anonymous"
-      />
+      /> -->
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+
+      <link rel="stylesheet" href="./css/bootstrap.css" />
 
       <link rel="stylesheet" href="./css/reset.css" />
 
@@ -201,8 +203,8 @@
               >理性將使感性越發綻放</span
             >
           </div>
-          <div class="text-content1">
-            <div href="#" class="star-text03" id="star-text-id">
+          <div class="text-content1 fadeInTrigger">
+            <div class="star-text03" id="star-text-id">
               <span lang="Lora">Flowering Time Design</span> —
               自在花期，透過串聯不同媒介間的設計，不論是攝影、繪畫、寫作，各式藝術創作，運用網頁設計重新轉譯內容，期望能夠以理性的方式抒發感性，而當科技與美相遇，設計也將為我們的生活注入獨一無二的新能量，讓人們感受到它的無所不在，從中看見一個全新的世界在眼前綻放。
             </div>
@@ -224,7 +226,7 @@
             </div>
           </div>
 
-          <img class="text-img" src="./imgs/garden2.jpg" alt="" />
+          <img class="text-img fadeInTrigger" src="./imgs/garden2.jpg" alt="" />
         </div>
       </div>
 
@@ -332,17 +334,75 @@
 
       // Images to make it look better, not related to the effect
       const size = Math.max(innerWidth, innerHeight);
-      gsap.set(".gridBlock", {
-        // backgroundImage: (i) =>
-        //   `url(https://picsum.photos/${size}/${size}?random=${i})`,
-      });
+      gsap.set(".gridBlock", {});
 
       const bigImg = new Image();
       bigImg.addEventListener("load", function () {
         gsap.to(".centerPiece .gridBlock", { autoAlpha: 1, duration: 0.5 });
       });
 
-      bigImg.src = `https://picsum.photos/${size}/${size}?random=50`;
+      bigImg.src = `../imgs/take-photo.jpg`;
+    </script>
+    <script>
+      // 1. 動くきっかけを独自の名前（関数：fadeAnime）で定義
+
+      function fadeAnime() {
+        //動きの指定
+        $(".fadeInTrigger").each(function () {
+          //fadeInTriggerというクラス名が
+          var elemPos = $(this).offset().top - 1; //要素より、50px上の
+          var scroll = $(window).scrollTop();
+          var windowHeight = $(window).height();
+          if (scroll >= elemPos - windowHeight) {
+            $(this).addClass("fadeIn"); // 画面内に入ったらfadeInというクラス名を追記
+          } else {
+            $(this).removeClass("fadeIn"); // 画面外に出たらfadeInというクラス名を外す
+          }
+        });
+      }
+
+      // 2. 定義した名前をページが読み込まれた後・スクロールした後それぞれのきっかけに指定
+
+      // 画面をスクロールをしたら動く場合の記述
+      $(window).scroll(function () {
+        fadeAnime(); /* アニメーション用の関数を呼ぶ*/
+      }); // ここまで画面をスクロールをしたら動く場合の記述
+
+      // 画面が読み込まれたらすぐに動く場合の記述
+      $(window).on("load", function () {
+        fadeAnime(); /* アニメーション用の関数を呼ぶ*/
+      }); // ここまで画面が読み込まれたらすぐに動く場合の記述
+    </script>
+
+    <script>
+      // 1. 動くきっかけを独自の名前（関数：fadeAnime）で定義
+
+      function fadeLeAnime() {
+        //動きの指定
+        $(".cssanimation").each(function () {
+          //fadeInTriggerというクラス名が
+          var elemPos = $(this).offset().top - 1; //要素より、50px上の
+          var scroll = $(window).scrollTop();
+          var windowHeight = $(window).height();
+          if (scroll >= elemPos - windowHeight) {
+            $(this).addClass("leFadeInLeft"); // 画面内に入ったらfadeInというクラス名を追記
+          } else {
+            $(this).removeClass("leFadeInLeft"); // 画面外に出たらfadeInというクラス名を外す
+          }
+        });
+      }
+
+      // 2. 定義した名前をページが読み込まれた後・スクロールした後それぞれのきっかけに指定
+
+      // 画面をスクロールをしたら動く場合の記述
+      $(window).scroll(function () {
+        fadeLeAnime(); /* アニメーション用の関数を呼ぶ*/
+      }); // ここまで画面をスクロールをしたら動く場合の記述
+
+      // 画面が読み込まれたらすぐに動く場合の記述
+      $(window).on("load", function () {
+        fadeLeAnime(); /* アニメーション用の関数を呼ぶ*/
+      }); // ここまで画面が読み込まれたらすぐに動く場合の記述
     </script>
   </html>
 </html>

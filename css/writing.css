@@ -830,6 +830,32 @@ a.star-text03 {
   display: inline-block;
 }
 
+/* fadeIn */
+.fadeIn {
+  animation-name: fadeInAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+
+.fadeInTrigger {
+  opacity: 0;
+}
+
 nav {
   width: 250px;
   height: 50px;
