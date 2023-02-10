@@ -1824,11 +1824,14 @@ a {
 
 .cssanimation span {
   display: inline-block;
+  animation-fill-mode: both;
+  color: black;
 }
 
 .animate__fadeInUp {
   animation-fill-mode: both;
   animation-duration: 1s;
+  opacity: 0;
 }
 
 /* fadeIn */
@@ -1836,13 +1839,13 @@ a {
   animation-name: fadeInAnime;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  opacity: 1;
+  opacity: 0;
 }
 
 @keyframes fadeInAnime {
   from {
-    opacity: 1;
-    transform: translateY(250px);
+    opacity: 0;
+    transform: translateY(100px);
   }
 
   to {
