@@ -1830,7 +1830,19 @@ a {
 
 .animate__fadeInUp {
   animation-fill-mode: both;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
+  opacity: 0;
+}
+
+.animate__rotateInDownRight {
+  animation-fill-mode: both;
+  animation-duration: 1.5s;
+  opacity: 0;
+}
+
+.animate__rotateInDownLeft {
+  animation-fill-mode: both;
+  animation-duration: 1.5s;
   opacity: 0;
 }
 
