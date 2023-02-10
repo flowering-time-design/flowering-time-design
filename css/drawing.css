@@ -1822,71 +1822,24 @@ a {
   margin-left: 8px;
 }
 
-.cssanimation,
-.cssanimation span {
-  animation-duration: 1.5s;
-  animation-fill-mode: both;
-}
-
 .cssanimation span {
   display: inline-block;
   animation-fill-mode: both;
 }
 
-.fadeInBottom {
-  animation-name: fadeInBottom;
+.animate__fadeInUp {
   animation-fill-mode: both;
   animation-duration: 1.5s;
   opacity: 0;
 }
-@-webkit-keyframes fadeInBottom {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(400px);
-    transform: translateY(400px);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-@keyframes fadeInBottom {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(400px);
-    transform: translateY(400px);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-.leFadeInLeft span {
-  animation-name: leFadeInLeft;
-  animation-fill-mode: both;
-}
-@keyframes leFadeInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-60px);
-  }
-  to {
-    opacity: 1;
-  }
-}
 
-.animate__animated {
-  -webkit-animation-duration: 1.5s;
+.animate__rotateInDownRight {
+  animation-fill-mode: both;
   animation-duration: 1.5s;
-  -webkit-animation-duration: var(--animate-duration);
-  animation-duration: var(--animate-duration);
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  opacity: 0;
 }
 
-/* .animate__fadeInUp {
+.animate__rotateInDownLeft {
   animation-fill-mode: both;
   animation-duration: 1.5s;
   opacity: 0;
@@ -1915,118 +1868,6 @@ a {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
-} */
-
-.reveal {
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: 1s all ease;
-}
-
-.reveal.active {
-  transform: translateY(0);
-  opacity: 1;
-}
-
-/* .leFadeInLeft span {
-  animation-name: leFadeOutLeft;
-}
-@keyframes leFadeOutLeft {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-    transform: translateX(-60px);
-  }
-}
-
-.leFadeInLeft.back span {
-  animation-name: leFadeInLeft;
-}
-@keyframes leFadeInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-60px);
-  }
-  to {
-    opacity: 1;
-  }
-} */
-
-.animate__rotateInDownRight {
-  animation-fill-mode: both;
-  animation-duration: 1.5s;
-  opacity: 0;
-}
-
-@-webkit-keyframes rotateInDownRight {
-  0% {
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    opacity: 0;
-  }
-  to {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1;
-  }
-}
-@keyframes rotateInDownRight {
-  0% {
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    opacity: 0;
-  }
-  to {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1;
-  }
-}
-.animate__rotateInDownRight {
-  -webkit-animation-name: rotateInDownRight;
-  animation-name: rotateInDownRight;
-  -webkit-transform-origin: right bottom;
-  transform-origin: right bottom;
-}
-
-.animate__rotateInDownLeft {
-  animation-fill-mode: both;
-  animation-duration: 1.5s;
-  opacity: 0;
-}
-
-@-webkit-keyframes rotateInDownLeft {
-  0% {
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    opacity: 0;
-  }
-  to {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1;
-  }
-}
-@keyframes rotateInDownLeft {
-  0% {
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    opacity: 0;
-  }
-  to {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1;
-  }
-}
-.animate__rotateInDownLeft {
-  -webkit-animation-name: rotateInDownLeft;
-  animation-name: rotateInDownLeft;
-  -webkit-transform-origin: left bottom;
-  transform-origin: left bottom;
 }
 
 .more {
