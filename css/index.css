@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+.theme a:visited {
+  color: black;
+}
+
 .menu {
   height: 48px;
   /* padding: 16px; */
@@ -492,8 +496,7 @@ a {
 #gotop :hover {
   background: #976e30;
   border-radius: 50%;
-  /* width: 50px;
-  height: 50px; */
+  cursor: pointer;
 }
 
 .arrow {
@@ -868,10 +871,11 @@ a {
 
 .h2 {
   font-size: 32px;
-  display: block;
+  display: flex;
   font-weight: 700;
   margin-bottom: 32px;
   color: black;
+  flex-direction: column;
 }
 
 .star-text03 {
@@ -963,28 +967,53 @@ a {
   height: auto;
 }
 
-/* fadeIn */
-.fadeIn {
-  animation-name: fadeInAnime;
+.animate__fadeInUp {
+  animation-fill-mode: both;
   animation-duration: 1.5s;
-  animation-fill-mode: forwards;
   opacity: 0;
 }
 
-@keyframes fadeInAnime {
-  from {
+@-webkit-keyframes fadeInUp {
+  0% {
     opacity: 0;
-    transform: translateY(100px);
+    -webkit-transform: translateY(400px);
+    transform: translateY(400px);
   }
-
   to {
     opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(400px);
+    transform: translateY(400px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
 
-/* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+.animate__fadeInOpacity {
+  animation-duration: 1.5s;
+  animation-name: fadeInOpacity;
+}
 
-.fadeInTrigger {
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.leFadeInLeft {
   opacity: 0;
+  animation-duration: 1.5s;
+  animation-name: leFadeInLeft;
 }

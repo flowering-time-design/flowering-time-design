@@ -16,12 +16,11 @@
         href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css"
         rel="stylesheet"
       />
-      <!-- <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+
+      <link
         rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-        crossorigin="anonymous"
-      /> -->
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
@@ -31,11 +30,6 @@
       <link rel="stylesheet" href="./css/reset.css" />
 
       <link rel="stylesheet" href="./css/index.css" />
-
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
 
       <!-- google字體 -->
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -51,7 +45,10 @@
       />
 
       <!-- 網站說明 -->
-      <meta property="og:url" content="http://floweringtime.lovestoblog.com/" />
+      <meta
+        property="og:url"
+        content="https://flowering-time-design.github.io/flowering-time-design/index.html"
+      />
       <meta property="og:locale" content="zh_TW" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Flowering Time Design | 自在花期" />
@@ -69,11 +66,7 @@
     </head>
     <body>
       <!-- 記得要把按鈕放到網頁上, 否則它不會出現 -->
-      <a
-        href="https://www.blogger.com/blogger.g?blogID=2031514508322140995#"
-        class="gotop"
-        id="gotop"
-      >
+      <a class="gotop" id="gotop">
         <div class="arrow">
           <img class="arrow-picture" src="./imgs/arrow-up.png" alt="" />
         </div>
@@ -181,7 +174,10 @@
         </div>
 
         <div class="text-content" id="text-content">
-          <div class="label-all" id="label-all">
+          <div
+            class="label-all wow animate__animated animate__fadeInOpacity"
+            id="label-all"
+          >
             <img
               class="flower"
               id="flower"
@@ -198,35 +194,36 @@
             <span class="cssanimation leFadeInLeft sequence"
               >當科技與美相遇，</span
             >
-            <br />
             <span class="cssanimation leFadeInLeft sequence"
               >理性將使感性越發綻放</span
             >
           </div>
-          <div class="text-content1 fadeInTrigger">
-            <div class="star-text03" id="star-text-id">
-              <span lang="Lora">Flowering Time Design</span> —
-              自在花期，透過串聯不同媒介間的設計，不論是攝影、繪畫、寫作，各式藝術創作，運用網頁設計重新轉譯內容，期望能夠以理性的方式抒發感性，而當科技與美相遇，設計也將為我們的生活注入獨一無二的新能量，讓人們感受到它的無所不在，從中看見一個全新的世界在眼前綻放。
-            </div>
-            <div class="text-content3" id="text-content3">
-              <div class="text-content2" id="text-content2">
-                <p lang="Lora" class="my">
-                  <img src="./imgs/sparkle-mini.png" id="sparkle" alt="" />
-                  Web & UI/UX Design
-                </p>
-                <p lang="Lora" class="my">
-                  <img src="./imgs/sparkle-mini.png" id="sparkle" alt="" />
-                  Illustrator & Writing
-                </p>
-                <p lang="Lora" id="mn">
-                  <img src="./imgs/sparkle-mini.png" id="sparkle" alt="" />
-                  Photography
-                </p>
+          <div class="wow animate__animated animate__fadeInUp">
+            <div class="text-content1">
+              <div class="star-text03" id="star-text-id">
+                <span lang="Lora">Flowering Time Design</span> —
+                自在花期，透過串聯不同媒介間的設計，不論是攝影、繪畫、寫作，各式藝術創作，運用網頁設計重新轉譯內容，期望能夠以理性的方式抒發感性，而當科技與美相遇，設計也將為我們的生活注入獨一無二的新能量，讓人們感受到它的無所不在，從中看見一個全新的世界在眼前綻放。
+              </div>
+              <div class="text-content3" id="text-content3">
+                <div class="text-content2" id="text-content2">
+                  <p lang="Lora" class="my">
+                    <img src="./imgs/sparkle-mini.png" id="sparkle" alt="" />
+                    Web & UI/UX Design
+                  </p>
+                  <p lang="Lora" class="my">
+                    <img src="./imgs/sparkle-mini.png" id="sparkle" alt="" />
+                    Illustrator & Writing
+                  </p>
+                  <p lang="Lora" id="mn">
+                    <img src="./imgs/sparkle-mini.png" id="sparkle" alt="" />
+                    Photography
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <img class="text-img fadeInTrigger" src="./imgs/garden2.jpg" alt="" />
+            <img class="text-img" src="./imgs/garden2.jpg" alt="" />
+          </div>
         </div>
       </div>
 
@@ -257,47 +254,15 @@
         </div>
       </footer>
     </body>
+    <!--預設 JQuery -->
+    <script src="./js/jquery-1.11.1.min.js"></script>
 
-    <!-- JQuery -->
-    <script src="./jquery-1.11.1.min.js"></script>
-
-    <!-- 漸進式 -->
+    <!-- wow漸進式 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="./WOW-master/WOW-master/dist/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
 
-    <script type="text/javascript">
-      $(function () {
-        /* 按下GoTop按鈕時的事件 */
-        $("#gotop").click(function () {
-          $("html,body").animate({ scrollTop: 0 }, "fast"); /* 返回到最頂上 */
-          return false;
-        });
-
-        /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
-        $(window).scroll(function () {
-          if ($(this).scrollTop() > 400) {
-            $("#gotop").fadeIn();
-          } else {
-            $("#gotop").fadeOut();
-          }
-        });
-      });
-    </script>
-
+    <!-- 動畫animation.io -->
     <script>
-      $(document).ready(function () {
-        // 透過 on 隨時監聽
-        $(".showmenu").on("click", function (e) {
-          e.preventDefault();
-          $("body").toggleClass("menu-show");
-        });
-      });
-    </script>
-    <script>
-      // 動畫animation.io
       src =
         "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js";
       integrity =
@@ -309,101 +274,7 @@
       src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"
     ></script>
 
-    <script>
-      gsap
-        .timeline({
-          scrollTrigger: {
-            trigger: ".grid-container",
-            start: "top top",
-            end: () => innerHeight * 4,
-            scrub: true,
-            pin: ".grid",
-            anticipatePin: 1,
-          },
-        })
-        .set(".gridBlock:not(.centerBlock)", { autoAlpha: 0 })
-        .to(
-          ".gridBlock:not(.centerBlock)",
-          { duration: 0.1, autoAlpha: 1 },
-          0.001
-        )
-        .from(".gridLayer", {
-          scale: 3.3333,
-          ease: "none",
-        });
-
-      // Images to make it look better, not related to the effect
-      const size = Math.max(innerWidth, innerHeight);
-      gsap.set(".gridBlock", {});
-
-      const bigImg = new Image();
-      bigImg.addEventListener("load", function () {
-        gsap.to(".centerPiece .gridBlock", { autoAlpha: 1, duration: 0.5 });
-      });
-
-      bigImg.src =
-        "https://raw.githubusercontent.com/flowering-time-design/flowering-time-design/master/imgs/take-photo.jpg";
-    </script>
-    <script>
-      // 1. 動くきっかけを独自の名前（関数：fadeAnime）で定義
-
-      function fadeAnime() {
-        //動きの指定
-        $(".fadeInTrigger").each(function () {
-          //fadeInTriggerというクラス名が
-          var elemPos = $(this).offset().top + 1; //要素より、50px上の
-          var scroll = $(window).scrollTop();
-          var windowHeight = $(window).height();
-          if (scroll >= elemPos - windowHeight) {
-            $(this).addClass("fadeIn"); // 画面内に入ったらfadeInというクラス名を追記
-          } else {
-            $(this).removeClass("fadeIn"); // 画面外に出たらfadeInというクラス名を外す
-          }
-        });
-      }
-
-      // 2. 定義した名前をページが読み込まれた後・スクロールした後それぞれのきっかけに指定
-
-      // 画面をスクロールをしたら動く場合の記述
-      $(window).scroll(function () {
-        fadeAnime(); /* アニメーション用の関数を呼ぶ*/
-      }); // ここまで画面をスクロールをしたら動く場合の記述
-
-      // 画面が読み込まれたらすぐに動く場合の記述
-      $(window).on("load", function () {
-        fadeAnime(); /* アニメーション用の関数を呼ぶ*/
-      }); // ここまで画面が読み込まれたらすぐに動く場合の記述
-    </script>
-
-    <script>
-      // 1. 動くきっかけを独自の名前（関数：fadeAnime）で定義
-
-      function fadeLeAnime() {
-        //動きの指定
-        $(".cssanimation").each(function () {
-          //fadeInTriggerというクラス名が
-          var elemPos = $(this).offset().top + 1; //要素より、50px上の
-          var scroll = $(window).scrollTop();
-          var windowHeight = $(window).height();
-          if (scroll >= elemPos - windowHeight) {
-            $(this).addClass("leFadeInLeft"); // 画面内に入ったらfadeInというクラス名を追記
-          } else {
-            $(this).removeClass("leFadeInLeft"); // 画面外に出たらfadeInというクラス名を外す
-          }
-        });
-      }
-
-      // 2. 定義した名前をページが読み込まれた後・スクロールした後それぞれのきっかけに指定
-
-      // 画面をスクロールをしたら動く場合の記述
-      $(window).scroll(function () {
-        fadeLeAnime(); /* アニメーション用の関数を呼ぶ*/
-      }); // ここまで画面をスクロールをしたら動く場合の記述
-
-      // 画面が読み込まれたらすぐに動く場合の記述
-      $(window).on("load", function () {
-        fadeLeAnime(); /* アニメーション用の関数を呼ぶ*/
-      }); // ここまで画面が読み込まれたらすぐに動く場合の記述
-    </script>
+    <!-- My JQuery -->
+    <script src="./js/flower.js"></script>
   </html>
 </html>

@@ -1,8 +1,5 @@
-@charset "UTF-8"; /*!
- * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+@charset "UTF-8";
+
 :root,
 [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
@@ -11267,4 +11264,4 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
-/*# sourceMappingURL=bootstrap.min.css.map */
+

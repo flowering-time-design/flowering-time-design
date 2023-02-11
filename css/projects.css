@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+.theme a:visited {
+  color: rgb(150, 150, 150);
+}
+
 .menu {
   height: 48px;
   /* padding: 16px; */
@@ -65,8 +69,24 @@ a {
   color: black;
 }
 
+.theme a:link {
+  color: rgb(150, 150, 150);
+}
+
+.theme:hover a:link {
+  color: black;
+}
+
+.theme.two a:link {
+  color: black;
+}
+
 /* Projects定住黑色 */
 .theme.two {
+  color: black;
+}
+
+.theme.two a:link {
   color: black;
 }
 
@@ -162,34 +182,9 @@ a {
 }
 
 .cssanimation span {
+  display: inline-block;
   width: auto;
   color: white;
-}
-
-/* fadeIn */
-.fadeIn {
-  animation-name: fadeInAnime;
-  animation-duration: 1.5s;
-  animation-fill-mode: forwards;
-  opacity: 0;
-}
-
-@keyframes fadeInAnime {
-  from {
-    opacity: 0;
-    transform: translateY(100px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* スクロールをしたら出現する要素にはじめに透過0を指定　*/
-
-.fadeInTrigger {
-  opacity: 0;
 }
 
 .p-drawing {
@@ -427,8 +422,7 @@ a {
 #gotop :hover {
   background: #976e30;
   border-radius: 50%;
-  /* width: 50px;
-  height: 50px; */
+  cursor: pointer;
 }
 
 .arrow {
@@ -472,11 +466,53 @@ a {
   margin-left: 8px;
 }
 
-.cssanimation span {
-  display: inline-block;
-}
-
 .animate__fadeInUp {
   animation-fill-mode: both;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
+  opacity: 0;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(400px);
+    transform: translateY(400px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(400px);
+    transform: translateY(400px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.animate__fadeInOpacity {
+  animation-duration: 1.5s;
+  animation-name: fadeInOpacity;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.leFadeInLeft {
+  opacity: 0;
+  animation-duration: 1.5s;
+  animation-name: leFadeInLeft;
 }

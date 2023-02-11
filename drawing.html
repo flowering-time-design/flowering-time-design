@@ -61,11 +61,7 @@
     </head>
     <body>
       <!-- 記得要把按鈕放到網頁上, 否則它不會出現 -->
-      <a
-        href="https://www.blogger.com/blogger.g?blogID=2031514508322140995#"
-        class="gotop"
-        id="gotop"
-      >
+      <a class="gotop" id="gotop">
         <div class="arrow">
           <img class="arrow-picture" src="./imgs/arrow-up.png" alt="" />
         </div>
@@ -128,7 +124,11 @@
         <!-- section01 -->
         <div class="star-background" id="star-background">
           <div class="star-animate-all">
-            <img src="./imgs/sea3.png" alt="" class="bigbig" />
+            <img
+              src="./imgs/sea3.png"
+              alt=""
+              class="bigbig animate__animated animate__fadeInOpacity"
+            />
 
             <img
               class="star-animate star-original wow animate__animated animate__rotateInDownLeft"
@@ -137,7 +137,11 @@
             />
             <div class="star-subtitle">
               <div class="star-text-all" id="star-text-all">
-                <img src="./imgs/flower4.png" alt="" class="big-draw" />
+                <img
+                  src="./imgs/flower4.png"
+                  alt=""
+                  class="big-draw animate__animated animate__fadeInOpacity"
+                />
                 <div>
                   <span class="star-text01 cssanimation leFadeInLeft sequence"
                     >星靈軌跡</span
@@ -585,7 +589,11 @@
             <span class="star-text01 s2 cssanimation leFadeInLeft sequence">
               射手座</span
             >
-            <span class="star-text02 s2" lang="Lora">Sagittarius</span>
+            <span
+              class="star-text02 s2 cssanimation leFadeInLeft sequence"
+              lang="Lora"
+              >Sagittarius</span
+            >
             <p class="star-text03 rewrite cssanimation leFadeInLeft sequence">
               “ 每天都是一場嶄新的冒險 ”
             </p>
@@ -702,7 +710,10 @@
 
         <!-- section03 -->
         <div class="section03" id="section03">
-          <div class="label-all" id="label-all">
+          <div
+            class="label-all wow animate__animated animate__fadeInOpacity"
+            id="label-all"
+          >
             <img
               class="flower"
               id="flower"
@@ -961,135 +972,15 @@
       </footer>
     </body>
 
-    <!-- JQuery -->
+    <!--預設 JQuery -->
+    <script src="./js/jquery-1.11.1.min.js"></script>
 
-    <script src="./jquery-1.11.1.min.js"></script>
-    <script>
-      // 大圖
-      $(".small").hover(function () {
-        var img = $(this).attr("data");
-        console.log(img);
-        $(".big-circle-star").attr("src", img);
-      });
-    </script>
-
-    <script>
-      $(".small").hover(function () {
-        var img = $(this).attr("data");
-        $(".div_class").css("display", "none");
-        $(".star-p-all").css("display", "none");
-        // 預設字
-        $("#star-p-active").css("display", "none");
-        // 預設字
-        $("." + $(this).attr("data-title") + "_class").css("display", "");
-      });
-      // 圖對應字class
-    </script>
-
-    <!-- section02 -->
-    <script>
-      $(".small").click(function () {
-        var img = $(this).attr("data");
-        $(".section_class").css("display", "none");
-        // 更改文字全
-        $("big-picture").css("display", "none");
-        // 預設字
-        $("#star-p-active03").css("display", "none");
-        // 預設字
-        $("." + $(this).attr("data-title") + "_section").css(
-          // 圖片設定data-title(abcd) 對應 文字的class(abcd)
-          "display",
-          ""
-        );
-      });
-    </script>
-
-    <script>
-      // 圖對應字class
-      $(".small").click(function () {
-        var img = $(this).attr("data");
-        $(".section_class").css("display", "none");
-        // 更改文字全
-        $("s2").css("display", "none");
-        // 預設字
-        $("#star-p-active02").css("display", "none");
-        // 預設字
-        $("." + $(this).attr("data-title") + "_section").css(
-          // 圖片設定data-title(abcd) 對應 文字的class(abcd)
-          "display",
-          ""
-        );
-        // 顯示
-      });
-    </script>
-
-    <!-- 漸進式 -->
+    <!-- wow漸進式 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="./WOW-master/WOW-master/dist/wow.min.js"></script>
+
+    <!-- 動畫animation.io -->
     <script>
-      new WOW().init();
-    </script>
-
-    <script type="text/javascript">
-      $(function () {
-        /* 按下GoTop按鈕時的事件 */
-        $("#gotop").click(function () {
-          $("html,body").animate({ scrollTop: 0 }, "fast"); /* 返回到最頂上 */
-          return false;
-        });
-
-        /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
-        $(window).scroll(function () {
-          if ($(this).scrollTop() > 400) {
-            $("#gotop").fadeIn();
-          } else {
-            $("#gotop").fadeOut();
-          }
-        });
-      });
-    </script>
-
-    <script>
-      $(document).ready(function () {
-        // 透過 on 隨時監聽
-        $(".showmenu").on("click", function (e) {
-          e.preventDefault();
-          $("body").toggleClass("menu-show");
-        });
-      });
-    </script>
-    <script>
-      // 1. 動くきっかけを独自の名前（関数：fadeAnime）で定義
-
-      function fadeLeAnime() {
-        //動きの指定
-        $(".cssanimation").each(function () {
-          //fadeInTriggerというクラス名が
-          var elemPos = $(this).offset().top + 1; //要素より、50px上の
-          var scroll = $(window).scrollTop();
-          var windowHeight = $(window).height();
-          if (scroll >= elemPos - windowHeight) {
-            $(this).addClass("leFadeInLeft"); // 画面内に入ったらfadeInというクラス名を追記
-          } else {
-            $(this).removeClass("leFadeInLeft"); // 画面外に出たらfadeInというクラス名を外す
-          }
-        });
-      }
-
-      // 2. 定義した名前をページが読み込まれた後・スクロールした後それぞれのきっかけに指定
-
-      // 画面をスクロールをしたら動く場合の記述
-      $(window).scroll(function () {
-        fadeLeAnime(); /* アニメーション用の関数を呼ぶ*/
-      }); // ここまで画面をスクロールをしたら動く場合の記述
-
-      // 画面が読み込まれたらすぐに動く場合の記述
-      $(window).on("load", function () {
-        fadeLeAnime(); /* アニメーション用の関数を呼ぶ*/
-      }); // ここまで画面が読み込まれたらすぐに動く場合の記述
-    </script>
-    <script>
-      // 動畫animation.io
       src =
         "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js";
       integrity =
@@ -1100,5 +991,8 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"
     ></script>
+
+    <!-- My JQuery -->
+    <script src="./js/flower.js"></script>
   </html>
 </html>
