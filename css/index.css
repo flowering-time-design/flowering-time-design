@@ -170,7 +170,6 @@ a {
   background-color: #242424;
   align-items: center;
   flex-direction: column;
-  z-index: -5;
 }
 
 .wrap-border {
@@ -179,19 +178,19 @@ a {
   position: absolute;
   border-left: #d2ad75 0.5px solid;
   border-right: #d2ad75 0.5px solid;
-  z-index: -5;
+  z-index: 0;
 }
 
 .section01 {
+  background-color: #242424;
   display: flex;
   flex-direction: column;
   /* 同一層排中間 */
   align-items: center;
   justify-content: center;
   height: 196px;
-  background-color: #242424;
   border-bottom: 0.5px solid #d2ad75;
-  z-index: 5;
+  z-index: 10;
 }
 
 .subtitle-drawing {
@@ -527,7 +526,6 @@ a {
   width: 100vw;
   height: 500vh;
   position: relative;
-  z-index: -6;
 }
 .grid {
   top: 0;
@@ -536,7 +534,6 @@ a {
   height: 60vw;
   margin: 0 calc(100vw / 20 * 3);
   position: absolute;
-  z-index: -6;
 }
 
 #text {
@@ -555,14 +552,6 @@ a {
   background-color: darkgray;
   z-index: -6;
 }
-
-/* .gridBlock > a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  z-index: 999;
-  position: relative;
-} */
 
 .gridLayer {
   top: 0;
@@ -647,10 +636,6 @@ a {
     height: 38vw;
   }
 }
-
-/* .gridLayer:nth-child(4) .centerBlock {
-  background: url(../imgs/take-photo.jpg);
-} */
 
 .gridLayer:nth-child(5) {
   z-index: 1;
@@ -950,7 +935,6 @@ a {
   margin-top: 40px;
   width: 100%;
   height: auto;
-  z-index: 0;
 }
 
 .arrow {
@@ -973,9 +957,7 @@ a {
   /* 同一層排中間 */
   align-items: center;
   justify-content: center;
-  background-color: #242424;
-  z-index: 10;
-  position: relative;
+  background: #242424;
   border-top: #d2ad75 0.5px solid;
 }
 
