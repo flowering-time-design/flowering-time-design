@@ -11326,6 +11326,6 @@ fieldset:disabled .btn {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
   animation-duration: 1.5s;
+  animation-fill-mode: both;
+  opacity: 0;
 }
-
-
