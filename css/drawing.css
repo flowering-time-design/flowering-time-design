@@ -5,7 +5,6 @@ html {
   box-sizing: border-box;
   font-family: "Noto Sans TC", sans-serif;
   text-decoration: none;
-  background-color: #242424;
   scroll-behavior: smooth;
 }
 
@@ -1829,4 +1828,8 @@ a {
 
 .more:hover {
   color: #d2ad75;
+}
+
+footer {
+  background-color: #242424;
 }
