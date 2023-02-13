@@ -5,25 +5,19 @@ $("button").click(function () {
 });
 
 // <!-- 時間滾軸 -->
-
-//線が伸びるための設定を関数でまとめる
 function ScrollTimelineAnime() {
   $(".timeline li").each(function () {
-    // それぞれのli要素の
-    var elemPos = $(this).offset().top; // 上からの高さ取得
-    var scroll = $(window).scrollTop(); // スクロール値取得
-    var windowHeight = $(window).height(); // windowの高さ取得
-    var startPoint = 100; //線をスタートさせる位置を指定※レイアウトによって調整してください
+    var elemPos = $(this).offset().top;
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    var startPoint = 100;
     if (scroll >= elemPos - windowHeight - startPoint) {
-      var H = $(this).outerHeight(true); //liの余白と高さを含めた数値を取得
-      //スクロール値から要素までの高さを引いた値を、liの高さの半分のパーセントで出す
-      var percent = ((scroll + startPoint - elemPos) / (H / 2)) * 100; //liの余白と高さの半分で線を100％に伸ばす
-
-      // 100% を超えたらずっと100%を入れ続ける
+      var H = $(this).outerHeight(true);
+      var percent = ((scroll + startPoint - elemPos) / (H / 2)) * 100;
       if (percent > 100) {
         percent = 100;
       }
-      // ボーダーの長さをセット
+
       $(this)
         .children(".border-line")
         .css({
@@ -33,84 +27,20 @@ function ScrollTimelineAnime() {
   });
 }
 
-// 画面をスクロールをしたら動かしたい場合の記述
 $(window).on("scroll", function () {
-  ScrollTimelineAnime(); // 線が伸びる関数を呼ぶ
+  ScrollTimelineAnime();
 });
 
-// ページが読み込まれたらすぐに動かしたい場合の記述
 $(window).on("load", function () {
-  ScrollTimelineAnime(); // 線が伸びる関数を呼ぶ
+  ScrollTimelineAnime();
 });
-
-// scroll replay animation
-
-// 1. 動くきっかけを独自の名前（関数：fadeAnime）で定義
-
-function fadeAnime() {
-  //動きの指定
-  $(".fadeInTrigger").each(function () {
-    //fadeInTriggerというクラス名が
-    var elemPos = $(this).offset().top + 1; //要素より、50px上の
-    var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-    if (scroll >= elemPos - windowHeight) {
-      $(this).addClass("fadeIn"); // 画面内に入ったらfadeInというクラス名を追記
-    } else {
-      $(this).removeClass("fadeIn"); // 画面外に出たらfadeInというクラス名を外す
-    }
-  });
-}
-
-// 2. 定義した名前をページが読み込まれた後・スクロールした後それぞれのきっかけに指定
-
-// 画面をスクロールをしたら動く場合の記述
-$(window).scroll(function () {
-  fadeAnime(); /* アニメーション用の関数を呼ぶ*/
-}); // ここまで画面をスクロールをしたら動く場合の記述
-
-// 画面が読み込まれたらすぐに動く場合の記述
-$(window).on("load", function () {
-  fadeAnime(); /* アニメーション用の関数を呼ぶ*/
-}); // ここまで画面が読み込まれたらすぐに動く場合の記述
-
-// 1. 動くきっかけを独自の名前（関数：fadeAnime）で定義
-for (var i = 0; i < 1; i++) {
-  function fadeLeAnime() {
-    //動きの指定
-    $(".cssanimation").each(function () {
-      //fadeInTriggerというクラス名が
-      var elemPos = $(this).offset().top + 1; //要素より、50px上の
-      var scroll = $(window).scrollTop();
-      var windowHeight = $(window).height();
-      if (scroll >= elemPos - windowHeight) {
-        $(this).addClass("leFadeInLeft"); // 画面内に入ったらfadeInというクラス名を追記
-      } else {
-        $(this).removeClass("leFadeInLeft"); // 画面外に出たらfadeInというクラス名を外す
-      }
-    });
-  }
-}
-
-// 2. 定義した名前をページが読み込まれた後・スクロールした後それぞれのきっかけに指定
-
-// 画面をスクロールをしたら動く場合の記述
-$(window).scroll(function () {
-  fadeLeAnime(); /* アニメーション用の関数を呼ぶ*/
-}); // ここまで画面をスクロールをしたら動く場合の記述
-
-// 画面が読み込まれたらすぐに動く場合の記述
-$(window).on("load", function () {
-  fadeLeAnime(); /* アニメーション用の関数を呼ぶ*/
-}); // ここまで画面が読み込まれたらすぐに動く場合の記述
 
 // wowjs
 new WOW().init();
 
 // gotop button
-/* 按下GoTop按鈕時的事件 */
 $("#gotop").click(function () {
-  $("html,body").animate({ scrollTop: 0 }, "fast"); /* 返回到最頂上 */
+  $("html,#wrap").animate({ scrollTop: 0 }, "fast");
   return false;
 });
 
@@ -133,7 +63,6 @@ $(document).ready(function () {
 });
 
 // 幻燈片特效
-
 // 大圖
 $(".small").hover(function () {
   var img = $(this).attr("data");
@@ -220,13 +149,12 @@ gsap
     ease: "none",
   });
 
-// Images to make it look better, not related to the effect
 const size = Math.max(innerWidth, innerHeight);
 gsap.set(".gridBlock", {});
 
 const bigImg = new Image();
 bigImg.addEventListener("load", function () {
-  gsap.to(".centerPiece .gridBlock", { autoAlpha: 1, duration: 0.5 });
+  gsap.to(".centerPiece .gridBlock", { autoAlpha: 1, duration: 1 });
 });
 
 bigImg.src =
