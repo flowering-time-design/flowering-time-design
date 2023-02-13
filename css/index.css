@@ -592,7 +592,7 @@ body {
   width: 8vw;
   height: 8vw;
   background: url(../imgs/lover.jpg);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
