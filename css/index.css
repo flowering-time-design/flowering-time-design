@@ -830,6 +830,7 @@ a {
   height: 100%;
   padding-left: 80px;
   padding-right: 80px;
+  padding-bottom: 56px;
   text-align: justify;
   display: flex;
   flex-direction: column;
@@ -974,6 +975,8 @@ a {
   justify-content: center;
   background-color: #242424;
   z-index: 10;
+  position: relative;
+  border-top: #d2ad75 0.5px solid;
 }
 
 .p-contact {
@@ -1020,9 +1023,4 @@ a {
   background: #d2ad75;
   border-radius: 50%;
   cursor: pointer;
-}
-
-footer {
-  background-color: #242424;
-  border-top: #d2ad75 0.5px solid;
 }
