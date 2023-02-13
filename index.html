@@ -13,11 +13,6 @@
       />
 
       <link
-        href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css"
-        rel="stylesheet"
-      />
-
-      <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
       />
@@ -25,7 +20,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
 
-      <link rel="stylesheet" href="./css/bootstrap.css" />
+      <link rel="stylesheet" href="./css/root.css" />
 
       <link rel="stylesheet" href="./css/reset.css" />
 
@@ -72,15 +67,12 @@
         </div>
       </a>
 
-      <div class="menu" style="box-shadow: 0px 0px 5px 1px #7a7a7a">
+      <div class="menu">
         <a href="./index.html" class="logo" lang="Lora">
           <span class="text-bold" lang="Lora">Flowering Time</span>
           Design
         </a>
         <a href="#" class="showmenu">☰</a>
-        <!-- <label for="burger">☰</label> -->
-        <!-- <input type="checkbox" id="burger"> -->
-
         <ul class="link-group" id="link-group">
           <li>
             <a href="./about.html" class="theme one" lang="Lora">About</a>
@@ -123,51 +115,55 @@
         </ul>
       </div>
       <div class="wrap">
+        <div
+          class="wrap-border wow animate__animated animate__fadeInOpacity"
+        ></div>
         <div class="section01">
           <div class="subtitle-drawing" lang="Lora">Flowering Time Design</div>
           <p class="p-drawing">自在花期，在自己的時區裡綻放</p>
         </div>
+        <div>
+          <div class="photo-grid">
+            <div class="grid-container" id="grid-container">
+              <div class="grid">
+                <div class="gridLayer" id="gridLayer">
+                  <div class="gridBlock"></div>
+                </div>
+                <div class="gridLayer" id="gridLayer">
+                  <div class="gridBlock"></div>
+                </div>
+                <div class="gridLayer" id="gridLayer">
+                  <div class="gridBlock"></div>
+                </div>
 
-        <div class="photo-grid">
-          <div class="grid-container" id="grid-container">
-            <div class="grid">
-              <div class="gridLayer" id="gridLayer">
-                <div class="gridBlock"></div>
-              </div>
-              <div class="gridLayer" id="gridLayer">
-                <div class="gridBlock"></div>
-              </div>
-              <div class="gridLayer" id="gridLayer">
-                <div class="gridBlock"></div>
-              </div>
+                <div class="gridLayer centerPiece" id="gridLayer">
+                  <div class="gridBlock centerBlock"></div>
+                </div>
+                <div class="gridLayer" id="gridLayer">
+                  <div class="gridBlock"></div>
+                </div>
+                <div class="gridLayer" id="gridLayer">
+                  <div class="gridBlock"></div>
+                </div>
+                <div class="gridLayer" id="gridLayer">
+                  <div class="gridBlock"></div>
+                </div>
+                <div class="gridLayer" id="gridLayer">
+                  <div class="gridBlock"></div>
+                </div>
+                <div class="gridLayer" id="gridLayer">
+                  <div class="gridBlock"></div>
+                </div>
+                <div class="gridLayer">
+                  <div class="gridBlock" id="text" lang="Lora">LIFE.</div>
+                </div>
+                <div class="gridLayer">
+                  <div class="gridBlock" id="text" lang="Lora">YOUR</div>
+                </div>
 
-              <div class="gridLayer centerPiece" id="gridLayer">
-                <div class="gridBlock centerBlock"></div>
-              </div>
-              <div class="gridLayer" id="gridLayer">
-                <div class="gridBlock"></div>
-              </div>
-              <div class="gridLayer" id="gridLayer">
-                <div class="gridBlock"></div>
-              </div>
-              <div class="gridLayer" id="gridLayer">
-                <div class="gridBlock"></div>
-              </div>
-              <div class="gridLayer" id="gridLayer">
-                <div class="gridBlock"></div>
-              </div>
-              <div class="gridLayer" id="gridLayer">
-                <div class="gridBlock"></div>
-              </div>
-              <div class="gridLayer">
-                <div class="gridBlock" id="text" lang="Lora">LIFE.</div>
-              </div>
-              <div class="gridLayer">
-                <div class="gridBlock" id="text" lang="Lora">YOUR</div>
-              </div>
-
-              <div class="gridLayer">
-                <div class="gridBlock" id="text" lang="Lora">DESIGN</div>
+                <div class="gridLayer">
+                  <div class="gridBlock" id="text" lang="Lora">DESIGN</div>
+                </div>
               </div>
             </div>
           </div>
@@ -181,7 +177,7 @@
             <img
               class="flower"
               id="flower"
-              src="./imgs/flower logo.png"
+              src="./imgs/flower logo2.png"
               alt=""
             /><span class="label" id="label" lang="Lora"
               ><span class="labelc" id="labelc">Flowering</span
@@ -190,16 +186,12 @@
             >
           </div>
 
-          <div class="h2" id="h2">
-            <span class="cssanimation leFadeInLeft sequence"
-              >當科技與美相遇，</span
-            >
-            <span class="cssanimation leFadeInLeft sequence"
-              >理性將使感性越發綻放</span
-            >
+          <div class="h2 wow animate__animated animate__fadeInLeft" id="h2">
+            <span>當科技與美相遇，</span>
+            <span>理性將使感性越發綻放</span>
           </div>
-          <div class="wow animate__animated animate__fadeInUp">
-            <div class="text-content1">
+          <div class="">
+            <div class="text-content1 wow animate__animated animate__fadeInUp">
               <div class="star-text03" id="star-text-id">
                 <span lang="Lora">Flowering Time Design</span> —
                 自在花期，透過串聯不同媒介間的設計，不論是攝影、繪畫、寫作，各式藝術創作，運用網頁設計重新轉譯內容，期望能夠以理性的方式抒發感性，而當科技與美相遇，設計也將為我們的生活注入獨一無二的新能量，讓人們感受到它的無所不在，從中看見一個全新的世界在眼前綻放。
@@ -207,22 +199,26 @@
               <div class="text-content3" id="text-content3">
                 <div class="text-content2" id="text-content2">
                   <p lang="Lora" class="my">
-                    <img src="./imgs/sparkle-mini.png" id="sparkle" alt="" />
+                    <img src="./imgs/sparkle.png" id="sparkle" alt="" />
                     Web & UI/UX Design
                   </p>
                   <p lang="Lora" class="my">
-                    <img src="./imgs/sparkle-mini.png" id="sparkle" alt="" />
+                    <img src="./imgs/sparkle.png" id="sparkle" alt="" />
                     Illustrator & Writing
                   </p>
                   <p lang="Lora" id="mn">
-                    <img src="./imgs/sparkle-mini.png" id="sparkle" alt="" />
+                    <img src="./imgs/sparkle.png" id="sparkle" alt="" />
                     Photography
                   </p>
                 </div>
               </div>
             </div>
 
-            <img class="text-img" src="./imgs/garden2.jpg" alt="" />
+            <img
+              class="text-img wow animate__animated animate__fadeInUp"
+              src="./imgs/rose-island-big.PNG"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -236,14 +232,14 @@
               ><img
                 class="social-logo"
                 id="social-logo"
-                src="./imgs/Facebook.png"
+                src="./imgs/Facebook2.png"
                 alt=""
             /></a>
             <a href="https://www.instagram.com/_flowering_time/" target="_blank"
               ><img
                 class="social-logo"
                 id="social-logo"
-                src="./imgs/instagram-logo-fill.png"
+                src="./imgs/instagram-logo-fill2.png"
                 alt=""
             /></a>
           </p>
@@ -269,11 +265,6 @@
         "sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN";
       crossorigin = "anonymous";
     </script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"
-    ></script>
-
     <!-- My JQuery -->
     <script src="./js/flower.js"></script>
   </html>

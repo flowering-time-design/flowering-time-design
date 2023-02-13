@@ -5,7 +5,7 @@ html {
   box-sizing: border-box;
   font-family: "Noto Sans TC", sans-serif;
   text-decoration: none;
-  color: black;
+  color: #d2ad75;
   scroll-behavior: smooth;
 }
 
@@ -17,34 +17,31 @@ a {
   text-decoration: none;
 }
 
-.theme a:visited {
-  color: rgb(150, 150, 150);
-}
-
 .menu {
   height: 48px;
   /* padding: 16px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: #242424;
   font-weight: 500;
   position: relative;
   z-index: 999;
+  border-bottom: #d2ad75 0.5px solid;
 }
 
 .text-bold {
-  color: black;
+  color: #d2ad75;
 }
 .logo {
   margin-left: 32px;
-  color: black;
+  color: #d2ad75;
   font-size: 16px;
 }
 
 .showmenu {
   display: none;
-  color: black;
+  color: #d2ad75;
 }
 
 .link-group {
@@ -52,38 +49,30 @@ a {
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  right: 3vw;
-  width: 500px;
+  right: 6vw;
+  width: 450px;
+}
+.link-group > li {
+  width: auto;
 }
 
 .theme {
+  width: auto;
+  height: 24px;
   display: flex;
+  align-items: center;
   justify-content: center;
   font-size: 16px;
-  color: rgb(150, 150, 150);
-  transition: all 0.5s;
-  transition-duration: 0.5s;
+  color: #d2ad75;
+  background-image: linear-gradient(#d2ad75, #d2ad75);
+  background-position: center bottom;
+  background-size: 0 1px;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s;
 }
-
-.theme a:link {
-  color: rgb(150, 150, 150);
-}
-
-.theme:hover a:link {
-  color: black;
-}
-
-.theme.four a:link {
-  color: black;
-}
-
 .theme:hover {
-  color: black;
-}
-
-/* Writing定住黑色 */
-.theme.four {
-  color: black;
+  background-size: 100% 1px;
+  color: #d2ad75;
 }
 
 /* 漢堡選單 */
@@ -121,21 +110,41 @@ a {
     transition: max-height 0.8s;
   }
 
+  #link-group > li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #link-group > .contact {
+    background-color: white;
+    border-top: none;
+  }
+
+  #link-group > .contact > .p-contact {
+    color: black;
+  }
+
+  #link-group > .contact > .copyright {
+    color: black;
+  }
+
   .menu li {
     background: white;
     display: inline-block;
-    border-bottom: 1px solid #efefef;
+    border-bottom: 0.5px solid #d2ad75;
   }
 
   .theme {
+    height: auto;
     transition: none;
     transition-duration: 0s;
     padding: 1em;
+    color: black;
   }
 
   .theme:hover {
-    background: #303030;
-    color: white;
+    background: #242424;
+    color: #d2ad75;
   }
 
   .showmenu {
@@ -156,41 +165,53 @@ a {
 .wrap {
   margin: 0 auto;
   overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #242424;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrap-border {
+  width: 96%;
+  height: 100%;
+  position: absolute;
+  border-left: #d2ad75 0.5px solid;
+  border-right: #d2ad75 0.5px solid;
+  z-index: 0;
 }
 
 .section01 {
+  background-color: #242424;
   display: flex;
   flex-direction: column;
   /* 同一層排中間 */
   align-items: center;
   justify-content: center;
   height: 196px;
-  background-color: white;
+  border-bottom: 0.5px solid #d2ad75;
+  z-index: 10;
 }
 
 .subtitle-writing {
   font-size: 48px;
   text-align: center;
-  color: black;
+  color: #d2ad75;
   font-weight: 400;
-}
-
-.cssanimation span {
-  width: auto;
-  color: #ad7d37;
 }
 
 .p-drawing {
   margin-top: 16px;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
+  color: rgb(230, 230, 230);
 }
 
 .content {
   width: 100%;
   height: 100%;
-  background: #ece6da;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -241,7 +262,7 @@ a {
   display: flex;
   align-items: center;
   font-size: 28px;
-  color: #ad7d37;
+  color: #d2ad75;
   margin-left: 16px;
   font-style: italic;
 }
@@ -249,15 +270,15 @@ a {
 #labelc {
   margin-left: 8px;
   width: auto;
-  color: #ad7d37;
+  color: #d2ad75;
 }
 
 #label::after {
   display: inline-block;
   margin-left: 2rem;
   width: 10rem;
-  height: 1px;
-  background-color: #ad7d37;
+  height: 0.5px;
+  background-color: #d2ad75;
   content: "";
 }
 
@@ -265,22 +286,22 @@ a {
   width: auto;
   margin-bottom: 8px;
   font-size: 20px;
-  color: #976e30;
+  color: #d2ad75;
   text-decoration: none;
-  background-image: linear-gradient(#976e30, #976e30);
-  background-position: left bottom;
-  background-size: 0 1.5px;
+  background-image: linear-gradient(#d2ad75, #d2ad75);
+  background-position: center bottom;
+  background-size: 0 1px;
   background-repeat: no-repeat;
   transition: background-size 0.3s;
 }
 
 .type > span {
-  color: #976e30;
+  color: #d2ad75;
 }
 
 .type:hover {
-  background-size: 100% 1.5px;
-  color: #976e30;
+  background-size: 100% 1px;
+  color: #d2ad75;
 }
 
 .text-button {
@@ -295,7 +316,7 @@ a {
 .date {
   margin-bottom: 8px;
   font-size: 20px;
-  color: #ad7d37;
+  color: #d2ad75;
   font-style: italic;
   width: auto;
 }
@@ -317,6 +338,7 @@ a {
   height: 400px;
   overflow: hidden;
   text-align: center;
+  border: 1px solid #d2ad75;
 }
 
 .door-img {
@@ -332,17 +354,18 @@ a {
   font-size: 28px;
   display: block;
   margin-bottom: 32px;
-  color: black;
+  color: #d2ad75;
 }
 
 .h2:hover {
-  color: black;
+  color: #d2ad75;
 }
 
 a.star-text03 {
   font-size: 20px;
   line-height: 30px;
-  color: black;
+  color: rgb(230, 230, 230);
+  font-weight: 300;
 }
 
 .door-top {
@@ -359,7 +382,7 @@ a.star-text03 {
 }
 
 .more:hover {
-  color: #976e30;
+  color: #d2ad75;
 }
 
 /* RWD */
@@ -400,6 +423,9 @@ a.star-text03 {
 /* RWD */
 /* xs - Extra small devices (portrait phones, less than 426px) */
 @media (max-width: 425.98px) {
+  .wrap-border {
+    width: 95%;
+  }
   #contact {
     height: 96px;
   }
@@ -513,6 +539,9 @@ a.star-text03 {
 }
 
 @media (min-width: 426px) and (max-width: 575.98px) {
+  .wrap-border {
+    width: 95%;
+  }
   #contact {
     height: 96px;
   }
@@ -786,17 +815,17 @@ a.star-text03 {
   background: #ad7d37;
   line-height: 50px;
   border-radius: 50%;
-  transition: all 0s;
   text-align: center;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 #gotop :hover {
-  background: #976e30;
-  border-radius: 50%;
+  background: #d2ad75;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 .arrow {
@@ -819,7 +848,8 @@ a.star-text03 {
   /* 同一層排中間 */
   align-items: center;
   justify-content: center;
-  background: white;
+  background: #242424;
+  border-top: #d2ad75 0.5px solid;
 }
 
 .p-contact {
@@ -841,61 +871,6 @@ a.star-text03 {
   margin-left: 8px;
 }
 
-.cssanimation span {
-  display: inline-block;
-}
-
-.animate__fadeInUp {
-  animation-fill-mode: both;
-  animation-duration: 1.5s;
-  opacity: 0;
-}
-
-@-webkit-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(400px);
-    transform: translateY(400px);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(400px);
-    transform: translateY(400px);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-
-.animate__fadeInOpacity {
-  animation-duration: 1.5s;
-  animation-name: fadeInOpacity;
-}
-
-@keyframes fadeInOpacity {
-  0% {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.leFadeInLeft {
-  opacity: 0;
-  animation-duration: 1.5s;
-  animation-name: leFadeInLeft;
-}
-
 nav {
   width: 250px;
   height: 50px;
@@ -915,9 +890,9 @@ nav {
   width: 40px;
   font-size: 20px;
   /* font-style: italic; */
-  color: #ad7d37;
+  color: black;
   text-align: center;
-  /* background-color: #ece6da; */
+  /* backg */
   border: none;
   transition: none;
   border-radius: 50%;
