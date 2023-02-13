@@ -170,7 +170,6 @@ a {
   background-color: #242424;
   align-items: center;
   flex-direction: column;
-  z-index: -5;
 }
 
 .wrap-border {
@@ -179,17 +178,17 @@ a {
   position: absolute;
   border-left: #d2ad75 0.5px solid;
   border-right: #d2ad75 0.5px solid;
-  z-index: -5;
+  z-index: 0;
 }
 
 .section01 {
+  background-color: #242424;
   display: flex;
   flex-direction: column;
   /* 同一層排中間 */
   align-items: center;
   justify-content: center;
   height: 196px;
-  background-color: #242424;
   border-bottom: 0.5px solid #d2ad75;
   z-index: 10;
 }
