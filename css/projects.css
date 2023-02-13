@@ -467,6 +467,7 @@ a {
   justify-content: center;
   background-color: #242424;
   border-top: #d2ad75 0.5px solid;
+  border-bottom: #d2ad75 0.5px solid;
 }
 
 .p-contact {
