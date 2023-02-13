@@ -7,6 +7,8 @@ html {
   text-decoration: none;
   color: black;
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 [lang="Lora"] {
