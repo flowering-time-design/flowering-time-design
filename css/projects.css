@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color: #242424;
+}
+
 .menu {
   height: 48px;
   display: flex;
