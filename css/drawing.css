@@ -1648,7 +1648,6 @@ a {
 
 .section03 {
   height: 100%;
-
   padding-right: 80px;
   padding-left: 80px;
 }
@@ -1795,8 +1794,10 @@ a {
   /* 同一層排中間 */
   align-items: center;
   justify-content: center;
-  background-color: #242424;
+  background: #242424;
   border-top: #d2ad75 0.5px solid;
+  position: relative;
+  z-index: 10;
 }
 
 .p-contact {
