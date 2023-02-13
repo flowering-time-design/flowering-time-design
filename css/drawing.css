@@ -5,7 +5,7 @@ html {
   box-sizing: border-box;
   font-family: "Noto Sans TC", sans-serif;
   text-decoration: none;
-  color: black;
+  background-color: #242424;
   scroll-behavior: smooth;
 }
 
