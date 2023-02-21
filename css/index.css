@@ -645,21 +645,21 @@ body {
   z-index: 1;
 }
 .gridLayer:nth-child(5) .gridBlock {
-  top: 16vw;
+  top: 17.5vw;
   left: 50vw;
-  width: 13vw;
-  height: 13vw;
-  background: url(../imgs/HW3.1.png);
+  width: 8vw;
+  height: 8vw;
+  background: url(../imgs/home\ page.png);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 580px) {
   .gridLayer:nth-child(5) .gridBlock {
-    top: 28vw;
-    left: 70vw;
-    width: 15.278vw;
-    height: 15.278vw;
+    top: 30.35vw;
+    left: 69vw;
+    width: 12vw;
+    height: 12vw;
   }
 }
 .gridLayer:nth-child(5) a {
@@ -681,17 +681,17 @@ body {
   top: 27.5vw;
   width: 20vw;
   height: 20vw;
-  background: url(../imgs/HW3.2.png);
+  background: url(../imgs/home\ page.png);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 580px) {
   .gridLayer:nth-child(6) .gridBlock {
-    top: 42vw;
-    left: 70vw;
-    width: 26.389vw;
-    height: 26.389vw;
+    top: 46.2vw;
+    left: 69vw;
+    width: 22vw;
+    height: 22vw;
   }
 }
 .gridLayer:nth-child(7) .gridBlock {
@@ -741,7 +741,7 @@ body {
 @media only screen and (max-width: 580px) {
   .gridLayer:nth-child(9) .gridBlock {
     top: 72vw;
-    left: 70vw;
+    left: 69vw;
     width: 15.278vw;
     height: 15.278vw;
   }
