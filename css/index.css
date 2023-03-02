@@ -528,7 +528,7 @@ body {
 
 .grid-container {
   width: 100vw;
-  height: 2800px;
+  height: 500vh;
   position: relative;
 }
 .grid {
