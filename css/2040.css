@@ -218,7 +218,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: #d2ad75 0.5px solid;
 }
 
 .figmom {
@@ -234,57 +233,49 @@ body {
 .figma {
   width: 78%;
   height: 100%;
-  background-color: white;
 }
 
 .tealab {
-  /* width: 900px;
-  height: 675px; */
   display: block;
   width: 100%;
   height: 100%;
 }
 
-/* .button.active {
-  background: #42602e;
-  border-color: transparent;
-  color: white;
-} */
-
-/* .a_figma {
-  position: relative;
-  z-index: 10;
+.text-content {
+  width: 100%;
+  height: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
 }
 
-.button {
-  height: 3rem;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  padding-top: 0.375rem;
-  padding-bottom: 0.375rem;
-  border-radius: 16px;
-  transition: all 0.5s;
+.h2 {
+  margin-top: 40px;
+  font-size: 32px;
   font-weight: 500;
-  font-size: 16px;
+  margin-bottom: 32px;
+  color: #d2ad75;
+  text-align: center;
 }
 
-.button-primary {
-  background: linear-gradient(0deg, #c1dfc4 0%, #deecdd 100%);
-  border-color: transparent;
-  color: #42602e;
-  transition: all 0.5s;
+.h2 > span {
+  margin-top: 40px;
+  color: #d2ad75;
+  text-align: center;
 }
 
-.button:hover {
-  scale: 110%;
+.star-text03 {
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  font-weight: 300;
+
+  margin-bottom: 40px;
 }
-
-.gap-2 {
-  padding-bottom: 40px;
-} */
-
-.iframe-figma {
-  border-top: #d2ad75 0.5px solid;
+.star-text03 > span {
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
 }
 
 /* RWD */
@@ -330,6 +321,24 @@ body {
   .figma {
     width: 100%;
   }
+
+  .h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  #star-text-id {
+    font-size: 16px;
+  }
+
+  #star-text-id > span {
+    font-size: 16px;
+  }
+
+  .text-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media (min-width: 426px) and (max-width: 575.98px) {
@@ -345,6 +354,18 @@ body {
 
   .figma {
     width: 100%;
+  }
+
+  .h2 {
+    font-size: 28px;
+  }
+
+  #star-text-id {
+    font-size: 18px;
+  }
+
+  #star-text-id > span {
+    font-size: 18px;
   }
 
   .subtitle-drawing {
@@ -366,6 +387,10 @@ body {
 
   .figma {
     width: 100%;
+  }
+
+  .h2 {
+    font-size: 28px;
   }
 }
 

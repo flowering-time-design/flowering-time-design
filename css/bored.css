@@ -245,13 +245,13 @@ body {
   height: 100%;
 }
 
-/* .button.active {
-  background: #42602e;
+.button.active {
+  background: #40bad2;
   border-color: transparent;
   color: white;
-} */
+}
 
-/* .a_figma {
+.a_figma {
   position: relative;
   z-index: 10;
 }
@@ -269,9 +269,9 @@ body {
 }
 
 .button-primary {
-  background: linear-gradient(0deg, #c1dfc4 0%, #deecdd 100%);
+  background: #40bad2;
   border-color: transparent;
-  color: #42602e;
+  color: white;
   transition: all 0.5s;
 }
 
@@ -281,10 +281,7 @@ body {
 
 .gap-2 {
   padding-bottom: 40px;
-} */
-
-.iframe-figma {
-  border-top: #d2ad75 0.5px solid;
+  padding-top: 40px;
 }
 
 /* RWD */
@@ -319,6 +316,7 @@ body {
 
   .gap-2 {
     padding-bottom: 20px;
+    padding-top: 20px;
   }
 
   .figmom {
