@@ -250,6 +250,11 @@ body {
   color: white;
 } */
 
+.a_figma {
+  position: relative;
+  z-index: 10;
+}
+
 .button {
   height: 3rem;
   padding-left: 0.75rem;
