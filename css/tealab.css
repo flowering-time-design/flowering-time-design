@@ -218,6 +218,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: #d2ad75 0.5px solid;
 }
 
 .figmom {
@@ -226,8 +227,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 40px;
-  padding-top: 40px;
   border-left: #d2ad75 0.5px solid;
   border-right: #d2ad75 0.5px solid;
 }
@@ -252,7 +251,7 @@ body {
   color: white;
 } */
 
-.a_figma {
+/* .a_figma {
   position: relative;
   z-index: 10;
 }
@@ -282,6 +281,10 @@ body {
 
 .gap-2 {
   padding-bottom: 40px;
+} */
+
+.iframe-figma {
+  border-top: #d2ad75 0.5px solid;
 }
 
 .img1 {
@@ -496,8 +499,6 @@ body {
     width: 95%;
     position: relative;
     z-index: -10;
-    padding-bottom: 0px;
-    padding-top: 0px;
   }
 
   .figma {
@@ -514,8 +515,6 @@ body {
     width: 95%;
     position: relative;
     z-index: -10;
-    padding-bottom: 0px;
-    padding-top: 0px;
   }
 
   .figma {
@@ -537,8 +536,6 @@ body {
     width: 96%;
     position: relative;
     z-index: -10;
-    padding-bottom: 0px;
-    padding-top: 0px;
   }
 
   .figma {
@@ -552,8 +549,6 @@ body {
     width: 96%;
     position: relative;
     z-index: -10;
-    padding-bottom: 0px;
-    padding-top: 0px;
   }
 
   .figma {
