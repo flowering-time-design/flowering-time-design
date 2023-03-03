@@ -226,6 +226,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 40px;
+  padding-top: 40px;
   border-left: #d2ad75 0.5px solid;
   border-right: #d2ad75 0.5px solid;
 }
@@ -495,6 +496,7 @@ body {
     position: relative;
     z-index: -10;
     padding-bottom: 0px;
+    padding-top: 0px;
   }
 
   .figma {
@@ -512,6 +514,7 @@ body {
     position: relative;
     z-index: -10;
     padding-bottom: 0px;
+    padding-top: 0px;
   }
 
   .figma {
@@ -534,6 +537,7 @@ body {
     position: relative;
     z-index: -10;
     padding-bottom: 0px;
+    padding-top: 0px;
   }
 
   .figma {
@@ -548,6 +552,7 @@ body {
     position: relative;
     z-index: -10;
     padding-bottom: 0px;
+    padding-top: 0px;
   }
 
   .figma {
