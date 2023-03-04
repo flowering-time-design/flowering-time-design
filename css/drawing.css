@@ -988,16 +988,6 @@ body {
     margin-bottom: 0px;
   }
 
-  /* .circle-border {
-    width: 40%;
-    height: fit-content;
-    position: absolute;
-    z-index: -1;
-    top: 50.5%;
-    left: 69.5%;
-    transform: translate(-50%, -50%);
-  } */
-
   .big-circle {
     margin-top: 40px;
     display: flex;
