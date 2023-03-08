@@ -212,316 +212,6 @@ body {
   color: white;
 }
 
-/* RWD */
-/* xs - Extra small devices (portrait phones, less than 426px) */
-@media (max-width: 425.98px) {
-  .wrap-border {
-    width: 95%;
-  }
-
-  .logo {
-    font-size: 14px;
-  }
-
-  .section01 {
-    height: 144px;
-  }
-
-  .subtitle-drawing {
-    font-size: 24px;
-  }
-
-  .p-drawing {
-    font-size: 14px;
-  }
-
-  .text-content1 {
-    flex-direction: column;
-  }
-
-  #text-content3 {
-    margin-top: 32px;
-    justify-content: flex-start;
-    margin-left: 0;
-  }
-
-  #star-text-id {
-    font-size: 16px;
-  }
-
-  #label-all {
-    margin-bottom: 20px;
-  }
-
-  #flower {
-    width: 30px;
-    height: 30px;
-  }
-
-  #labelc {
-    display: none;
-  }
-  #label {
-    margin-left: 0;
-  }
-
-  #label::after {
-    margin-left: 1rem;
-  }
-
-  #h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-
-  #text-content {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  #text-content2 {
-    font-size: 20px;
-  }
-
-  #text-content2 > .my {
-    margin-bottom: 24px;
-  }
-
-  #sparkle {
-    width: 16px;
-    height: auto;
-  }
-}
-
-@media (min-width: 426px) and (max-width: 575.98px) {
-  .wrap-border {
-    width: 95%;
-  }
-
-  .subtitle-drawing {
-    font-size: 32px;
-  }
-
-  .p-drawing {
-    font-size: 17px;
-  }
-
-  .text-content1 {
-    flex-direction: column;
-  }
-
-  #text-content3 {
-    margin-top: 32px;
-    justify-content: flex-start;
-    margin-left: 0;
-  }
-
-  #star-text-id {
-    font-size: 18px;
-  }
-
-  #labelc {
-    display: none;
-  }
-  #label {
-    margin-left: 0;
-  }
-
-  #label::after {
-    margin-left: 1rem;
-  }
-
-  #h2 {
-    font-size: 28px;
-  }
-
-  #text-content {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  #text-content2 {
-    font-size: 28px;
-  }
-}
-
-/* sm - Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .text-content1 {
-    flex-direction: column;
-  }
-
-  #text-content3 {
-    margin-top: 32px;
-    justify-content: flex-start;
-    margin-left: 0;
-  }
-
-  #text-content2 {
-    font-size: 28px;
-  }
-
-  #h2 {
-    font-size: 28px;
-  }
-
-  #text-content {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-}
-
-/* md - Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .text-content1 {
-    flex-direction: column;
-  }
-
-  #text-content3 {
-    margin-top: 32px;
-    justify-content: flex-start;
-    margin-left: 0;
-  }
-}
-
-/* lg - Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-}
-
-/* xl - Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
-
-/* RWD */
-/* xs - Extra small devices (portrait phones, less than 426px) */
-@media (max-width: 425.98px) {
-  #contact {
-    height: 96px;
-  }
-
-  #p-contact {
-    font-size: 14px;
-  }
-
-  #copyright {
-    font-size: 10px;
-  }
-  #gotop {
-    right: 15px;
-  }
-  .gridLayer:nth-child(10) #text {
-    font-size: 30px;
-    text-align: start;
-  }
-
-  .gridLayer:nth-child(11) #text {
-    font-size: 16px;
-  }
-
-  .gridLayer:nth-child(12) #text {
-    font-size: 22px;
-  }
-  #grid-container {
-    height: 430vh;
-  }
-}
-
-@media (min-width: 426px) and (max-width: 575.98px) {
-  #contact {
-    height: 96px;
-  }
-
-  #p-contact {
-    font-size: 16px;
-  }
-
-  #copyright {
-    font-size: 12px;
-  }
-  #gotop {
-    right: 15px;
-  }
-  .gridLayer:nth-child(10) #text {
-    font-size: 45px;
-    text-align: start;
-  }
-
-  .gridLayer:nth-child(11) #text {
-    font-size: 24px;
-  }
-
-  .gridLayer:nth-child(12) #text {
-    font-size: 32px;
-  }
-
-  #grid-container {
-    height: 440vh;
-  }
-}
-
-/* sm - Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  #gotop {
-    right: 15px;
-  }
-  .gridLayer:nth-child(10) #text {
-    font-size: 48px;
-    text-align: start;
-  }
-
-  .gridLayer:nth-child(11) #text {
-    font-size: 32px;
-  }
-
-  .gridLayer:nth-child(12) #text {
-    font-size: 36px;
-  }
-
-  #grid-container {
-    height: 440vh;
-  }
-}
-
-/* md - Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-  #link-group > #contact {
-    display: none;
-  }
-  .gridLayer:nth-child(10) #text {
-    font-size: 72px;
-    text-align: start;
-  }
-
-  .gridLayer:nth-child(11) #text {
-    font-size: 40px;
-  }
-
-  .gridLayer:nth-child(12) #text {
-    font-size: 48px;
-  }
-
-  #grid-container {
-    height: 450vh;
-  }
-}
-
-/* lg - Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  #link-group > #contact {
-    display: none;
-  }
-
-  #grid-container {
-    height: 470vh;
-  }
-}
-
-/* xl - Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  #link-group > #contact {
-    display: none;
-  }
-}
-
 .gridBlock {
   opacity: 0;
 }
@@ -836,7 +526,7 @@ body {
   font-size: 32px;
   display: flex;
   font-weight: 500;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   flex-direction: column;
 }
 
@@ -1009,4 +699,328 @@ body {
   background: #d2ad75;
   border-radius: 50%;
   cursor: pointer;
+}
+
+/* RWD */
+/* xs - Extra small devices (portrait phones, less than 426px) */
+@media (max-width: 425.98px) {
+  .wrap-border {
+    width: 95%;
+  }
+
+  .logo {
+    font-size: 14px;
+  }
+
+  .section01 {
+    height: 144px;
+  }
+
+  .subtitle-drawing {
+    font-size: 24px;
+  }
+
+  .p-drawing {
+    font-size: 14px;
+  }
+
+  .text-content1 {
+    flex-direction: column;
+  }
+
+  #text-content3 {
+    margin-top: 32px;
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+
+  #star-text-id {
+    font-size: 14px;
+  }
+
+  .star-text03 > span {
+    font-size: 14px;
+  }
+
+  #label-all {
+    margin-bottom: 20px;
+  }
+
+  #flower {
+    width: 30px;
+    height: 30px;
+  }
+
+  #labelc {
+    display: none;
+  }
+  #label {
+    margin-left: 0;
+  }
+
+  #label::after {
+    margin-left: 1rem;
+  }
+
+  .h2 {
+    font-size: 20px;
+  }
+
+  #text-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #text-content2 {
+    font-size: 20px;
+  }
+
+  #text-content2 > .my {
+    margin-bottom: 24px;
+  }
+
+  #sparkle {
+    width: 16px;
+    height: auto;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 575.98px) {
+  .wrap-border {
+    width: 95%;
+  }
+
+  .subtitle-drawing {
+    font-size: 32px;
+  }
+
+  .p-drawing {
+    font-size: 17px;
+  }
+
+  .text-content1 {
+    flex-direction: column;
+  }
+
+  #text-content3 {
+    margin-top: 32px;
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+
+  #star-text-id {
+    font-size: 17px;
+  }
+
+  .star-text03 > span {
+    font-size: 17px;
+  }
+
+  #labelc {
+    display: none;
+  }
+  #label {
+    margin-left: 0;
+  }
+
+  #label::after {
+    margin-left: 1rem;
+  }
+
+  #h2 {
+    font-size: 28px;
+  }
+
+  #text-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #text-content2 {
+    font-size: 28px;
+  }
+}
+
+/* sm - Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .text-content1 {
+    flex-direction: column;
+  }
+
+  #text-content3 {
+    margin-top: 32px;
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+
+  #text-content2 {
+    font-size: 28px;
+  }
+
+  /* #h2 {
+    font-size: 28px;
+  } */
+
+  #text-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* md - Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .text-content1 {
+    flex-direction: column;
+  }
+
+  #text-content3 {
+    margin-top: 32px;
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+}
+
+/* lg - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #star-text-id {
+    font-size: 17px;
+  }
+
+  .star-text03 > span {
+    font-size: 17px;
+  }
+}
+
+/* xl - Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* RWD */
+/* xs - Extra small devices (portrait phones, less than 426px) */
+@media (max-width: 425.98px) {
+  #contact {
+    height: 96px;
+  }
+
+  #p-contact {
+    font-size: 14px;
+  }
+
+  #copyright {
+    font-size: 10px;
+  }
+  #gotop {
+    right: 15px;
+  }
+  .gridLayer:nth-child(10) #text {
+    font-size: 30px;
+    text-align: start;
+  }
+
+  .gridLayer:nth-child(11) #text {
+    font-size: 16px;
+  }
+
+  .gridLayer:nth-child(12) #text {
+    font-size: 22px;
+  }
+  #grid-container {
+    height: 430vh;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 575.98px) {
+  #contact {
+    height: 96px;
+  }
+
+  #p-contact {
+    font-size: 16px;
+  }
+
+  #copyright {
+    font-size: 12px;
+  }
+  #gotop {
+    right: 15px;
+  }
+  .gridLayer:nth-child(10) #text {
+    font-size: 45px;
+    text-align: start;
+  }
+
+  .gridLayer:nth-child(11) #text {
+    font-size: 24px;
+  }
+
+  .gridLayer:nth-child(12) #text {
+    font-size: 32px;
+  }
+
+  #grid-container {
+    height: 440vh;
+  }
+}
+
+/* sm - Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #gotop {
+    right: 15px;
+  }
+  .gridLayer:nth-child(10) #text {
+    font-size: 48px;
+    text-align: start;
+  }
+
+  .gridLayer:nth-child(11) #text {
+    font-size: 32px;
+  }
+
+  .gridLayer:nth-child(12) #text {
+    font-size: 36px;
+  }
+
+  #grid-container {
+    height: 440vh;
+  }
+}
+
+/* md - Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #link-group > #contact {
+    display: none;
+  }
+  .gridLayer:nth-child(10) #text {
+    font-size: 72px;
+    text-align: start;
+  }
+
+  .gridLayer:nth-child(11) #text {
+    font-size: 40px;
+  }
+
+  .gridLayer:nth-child(12) #text {
+    font-size: 48px;
+  }
+
+  #grid-container {
+    height: 450vh;
+  }
+}
+
+/* lg - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #link-group > #contact {
+    display: none;
+  }
+
+  #grid-container {
+    height: 470vh;
+  }
+}
+
+/* xl - Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #link-group > #contact {
+    display: none;
+  }
 }

@@ -291,7 +291,7 @@ body {
   color: white;
   margin-top: 16px;
   line-height: 30px;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   font-weight: 300;
 }
 
@@ -300,7 +300,7 @@ body {
   color: white;
   margin-top: 16px;
   line-height: 30px;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   font-weight: 300;
   text-align: justify;
 }
@@ -388,7 +388,7 @@ body {
   color: white;
   /* margin-bottom: 36px;
   margin-top: 16px; */
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 
 .star-circle > ul {
@@ -1177,12 +1177,6 @@ body {
   #copyright {
     font-size: 10px;
   }
-
-  /* #social-logo {
-    width: 14px;
-    height: 14px;
-    margin-left: 4px;
-  } */
 
   #star-p-active03 {
     width: 100%;

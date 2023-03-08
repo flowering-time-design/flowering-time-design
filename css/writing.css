@@ -447,8 +447,8 @@ a.star-text03 {
   }
 
   .content {
-    padding-left: 56px;
-    padding-right: 56px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .writing-list-all {
@@ -508,10 +508,10 @@ a.star-text03 {
 
   #label::after {
     display: inline-block;
-    margin-left: 2rem;
+    margin-left: 1rem;
     width: 100%;
-    height: 1px;
-    background-color: #ad7d37;
+    height: 0.5px;
+    background-color: #d2ad75;
     content: "";
   }
 
@@ -521,8 +521,7 @@ a.star-text03 {
   }
 
   a.star-text03 {
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 14px;
   }
 
   .text-button {
@@ -625,10 +624,10 @@ a.star-text03 {
 
   #label::after {
     display: inline-block;
-    margin-left: 2rem;
+    margin-left: 1rem;
     width: 100%;
-    height: 1px;
-    background-color: #ad7d37;
+    height: 0.5px;
+    background-color: #d2ad75;
     content: "";
   }
 
@@ -638,15 +637,15 @@ a.star-text03 {
   }
 
   a.star-text03 {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .type {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .date {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   #gotop {
@@ -767,15 +766,15 @@ a.star-text03 {
   }
 
   a.star-text03 {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .type {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .date {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
@@ -797,6 +796,18 @@ a.star-text03 {
     margin-top: 40px;
     margin-bottom: 40px;
     /* margin-bottom: 80px; */
+  }
+
+  a.star-text03 {
+    font-size: 17px;
+  }
+
+  .type {
+    font-size: 17px;
+  }
+
+  .date {
+    font-size: 17px;
   }
 }
 
