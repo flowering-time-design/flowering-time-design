@@ -1106,11 +1106,11 @@ section:first-child {
   text-align: center;
 }
 
-.a-slider {
+#a-slider {
   color: white;
   text-decoration: underline 1px solid;
 }
-.a-slider:hover {
+#a-slider:hover {
   color: white;
   text-decoration: underline 1px solid;
 }
