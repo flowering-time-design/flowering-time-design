@@ -869,28 +869,28 @@ body {
 }
 
 #btnOne {
-  background: url(/imgs/island-black1-1.png);
+  background: url(https://raw.githubusercontent.com/flowering-time-design/flower/main/island-black1-1.png);
   background-size: contain;
 }
 #btnTwo {
-  background: url(/imgs/island-black2-2.png);
+  background: url(https://raw.githubusercontent.com/flowering-time-design/flower/main/island-black2-2.png);
   background-size: contain;
 }
 #btnThree {
-  background: url(/imgs/island-black3-3.png);
+  background: url(https://raw.githubusercontent.com/flowering-time-design/flower/main/island-black3-3.png);
   background-size: contain;
 }
 #btnOne.active {
-  background: url(/imgs/island-color1-1.png);
+  background: url(https://raw.githubusercontent.com/flowering-time-design/flower/main/island-color1-1.png);
   background-size: contain;
 }
 #btnTwo.active {
-  background: url(/imgs/island-color2-2.png);
+  background: url(https://raw.githubusercontent.com/flowering-time-design/flower/main/island-color2-2.png);
   background-size: contain;
 }
 
 #btnThree.active {
-  background: url(/imgs/island-color3-3.png);
+  background: url(https://raw.githubusercontent.com/flowering-time-design/flower/main/island-color3-3.png);
   background-size: contain;
 }
 
