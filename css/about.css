@@ -1140,6 +1140,12 @@ section:first-child {
 .slick-track {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.slick-list {
+  display: flex;
+  align-items: center;
   /* justify-content: center; */
 }
 
