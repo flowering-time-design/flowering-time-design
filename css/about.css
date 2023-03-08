@@ -1027,6 +1027,7 @@ body {
   height: 0; /*はじめは高さを0に*/
   background-color: #d2ad75;
   border-radius: 2px;
+  z-index: 10;
 }
 
 /*タイムラインの見出し横の丸の位置と形状*/
@@ -1146,6 +1147,7 @@ section:first-child {
 .slick-list {
   display: flex;
   align-items: center;
+  padding: 0 0 20px 4em;
   /* justify-content: center; */
 }
 
@@ -1529,6 +1531,10 @@ section:first-child {
 
   .slider {
     width: 100%;
+  }
+
+  .slick-list {
+    padding: 0 0 20px 2.5em;
   }
 
   .slider img {
