@@ -1006,6 +1006,10 @@ body {
 .timeline dl {
   margin: 0 0 20px 4em;
   width: 820px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .timeline dd strong {
@@ -1108,11 +1112,12 @@ section:first-child {
 
 #a-slider {
   color: white;
-  text-decoration: underline 1px solid;
-}
-#a-slider:hover {
-  color: white;
-  text-decoration: underline 1px solid;
+  width: auto;
+  text-decoration: none;
+  background-image: linear-gradient(white, white);
+  background-position: center bottom;
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
 }
 
 .slider {
