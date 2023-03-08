@@ -1147,7 +1147,6 @@ section:first-child {
 .slick-list {
   display: flex;
   align-items: center;
-  padding: 0 0 20px 4em;
   /* justify-content: center; */
 }
 
@@ -1531,10 +1530,6 @@ section:first-child {
 
   .slider {
     width: 100%;
-  }
-
-  .slick-list {
-    padding: 0 0 20px 2.5em;
   }
 
   .slider img {
