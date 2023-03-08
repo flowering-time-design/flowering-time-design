@@ -908,6 +908,7 @@ body {
   align-items: center;
   z-index: 12;
   position: relative;
+  margin-bottom: 40px;
 }
 
 .big-picture {
