@@ -347,6 +347,11 @@ body {
   color: #d2ad75;
 }
 
+.inline {
+  display: inline;
+  color: white;
+}
+
 .h2 {
   font-size: 28px;
   display: block;
