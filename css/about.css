@@ -12,7 +12,7 @@ html {
   font-family: "Lora", serif;
 }
 span {
-  width: auto;
+  /* width: auto; */
   text-align: start;
 }
 
@@ -314,12 +314,7 @@ body {
 }
 
 .door-img {
-  transition: all 0.8s ease-out;
   max-width: 100%;
-}
-
-.door-img:hover {
-  transform: scale(1.1, 1.1);
 }
 
 .information-all {
@@ -339,6 +334,10 @@ body {
   font-size: 17px;
   line-height: 30px;
   font-weight: 300;
+}
+
+.inen {
+  color: white;
 }
 
 .information.name {
