@@ -1140,7 +1140,7 @@ section:first-child {
 .slick-track {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .slider .slick-slide {
