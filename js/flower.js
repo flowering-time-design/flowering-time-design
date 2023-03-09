@@ -177,9 +177,9 @@ function fadeAnime() {
     var scroll = $(window).scrollTop();
     var windowHeight = $(window).height();
     if (scroll >= elemPos - windowHeight) {
-      $(this).addClass("flipLeft");
+      $(this).addClass("animate__fadeInOpacity");
     } else {
-      $(this).removeClass("flipLeft");
+      $(this).removeClass("animate__fadeInOpacity");
     }
   });
 }
