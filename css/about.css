@@ -549,28 +549,6 @@ body {
   word-wrap: break-word;
 }
 
-/*画像を出現させるアニメーションCSS*/
-
-.flipLeft {
-  animation-name: flipLeft;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-  perspective-origin: left center;
-  opacity: 0;
-}
-
-@keyframes flipLeft {
-  from {
-    transform: perspective(600px) translate3d(0, 0, 0) rotateY(30deg);
-    opacity: 0;
-  }
-
-  to {
-    transform: perspective(600px) translate3d(0, 0, 0) rotateY(0deg);
-    opacity: 1;
-  }
-}
-
 /* RWD */
 /* xs - Extra small devices (portrait phones, less than 426px) */
 @media (max-width: 425.98px) {
