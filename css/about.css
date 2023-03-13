@@ -1124,6 +1124,7 @@ section:first-child {
 .slider img {
   width: auto; /*スライダー内の画像を60vwにしてレスポンシブ化*/
   height: 400px;
+  display: inline-block;
 }
 
 .slick-track {
