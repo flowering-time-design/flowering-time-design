@@ -1118,27 +1118,23 @@ section:first-child {
   display: grid;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
 .slider img {
   width: auto; /*スライダー内の画像を60vwにしてレスポンシブ化*/
   height: 400px;
   display: inline-block;
-  text-align: center;
 }
 
 .slick-track {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 .slick-list {
   display: flex;
   align-items: center;
-  text-align: center;
   /* justify-content: center; */
 }
 
