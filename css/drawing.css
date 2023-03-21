@@ -291,7 +291,6 @@ body {
   color: white;
   margin-top: 16px;
   line-height: 30px;
-  /* letter-spacing: 2px; */
   font-weight: 300;
 }
 
@@ -1701,6 +1700,14 @@ body {
 .card-title {
   font-weight: 500;
   font-size: 20px;
+}
+
+.card-title > span {
+  margin-left: 16px;
+}
+
+.card-title > .nomar {
+  margin-left: 0px;
 }
 
 #card-text {

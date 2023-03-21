@@ -506,6 +506,7 @@ body {
 /*ギャラリー内のイメージは横幅100%にする*/
 .gallery img {
   width: 100%;
+  border-radius: 0.375rem;
   height: auto;
   vertical-align: bottom; /*画像の下にできる余白を削除*/
 }
@@ -1036,6 +1037,7 @@ section:first-child {
 
 .starttime {
   text-align: start;
+  margin-top: 10px;
 }
 
 #rewrite {
@@ -1123,6 +1125,7 @@ section:first-child {
 .slider img {
   width: auto; /*スライダー内の画像を60vwにしてレスポンシブ化*/
   height: 400px;
+  border-radius: 0.375rem;
   display: inline-block;
 }
 
@@ -1548,6 +1551,10 @@ section:first-child {
   .border-line {
     left: 14px;
   }
+
+  .starttime {
+    margin-top: 8px;
+  }
 }
 
 @media only screen and (max-width: 480px) and (orientation: portrait) {
@@ -1823,6 +1830,10 @@ section:first-child {
 
   .slick-next {
     right: 1.5%;
+  }
+
+  .starttime {
+    margin-top: 12px;
   }
 
   /* .s2 {
@@ -2178,6 +2189,10 @@ section:first-child {
 
   .slider {
     width: 100%;
+  }
+
+  .starttime {
+    margin-top: 12px;
   }
 
   /* .timeline > .timeli {

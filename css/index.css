@@ -504,6 +504,7 @@ body {
 .gridBlock {
   display: block;
   position: absolute;
+  border-radius: 0.375rem;
 }
 
 .text-content {
