@@ -214,7 +214,7 @@ body {
 }
 
 .content {
-  width: 100%;
+  width: 96%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -265,7 +265,7 @@ body {
 #label {
   display: flex;
   align-items: center;
-  font-size: 28px;
+  font-size: 32px;
   color: #d2ad75;
   margin-left: 16px;
   font-style: italic;
@@ -355,7 +355,7 @@ body {
 }
 
 .h2 {
-  font-size: 28px;
+  font-size: 32px;
   display: block;
   margin-bottom: 32px;
   color: #d2ad75;
@@ -380,12 +380,6 @@ a.star-text03 {
 
 .more {
   font-style: italic;
-  color: #ad7d37;
-  transition: all 0.5s;
-  transition-duration: 0.5s;
-}
-
-.more:hover {
   color: #d2ad75;
 }
 
@@ -405,7 +399,7 @@ a.star-text03 {
   }
 
   .p-drawing {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .flower {
@@ -420,7 +414,7 @@ a.star-text03 {
   }
 
   .p-drawing {
-    font-size: 17px;
+    font-size: 18px;
   }
 }
 
@@ -447,8 +441,9 @@ a.star-text03 {
   }
 
   .content {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 95%;
   }
 
   .writing-list-all {
@@ -480,6 +475,8 @@ a.star-text03 {
     height: auto;
     margin-top: 40px;
     margin-left: 0;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .door {
@@ -521,7 +518,7 @@ a.star-text03 {
   }
 
   a.star-text03 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .text-button {
@@ -529,11 +526,11 @@ a.star-text03 {
   }
 
   .type {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .date {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #gotop {
@@ -562,8 +559,9 @@ a.star-text03 {
   }
 
   .content {
-    padding-left: 56px;
-    padding-right: 56px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 95%;
   }
 
   .writing-list-all {
@@ -619,7 +617,7 @@ a.star-text03 {
 
   #label {
     width: 100%;
-    font-size: 24px;
+    font-size: 28px;
   }
 
   #label::after {
@@ -632,20 +630,20 @@ a.star-text03 {
   }
 
   .h2 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 32px;
   }
 
   a.star-text03 {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .type {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .date {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   #gotop {
@@ -657,6 +655,11 @@ a.star-text03 {
 @media (min-width: 576px) and (max-width: 767.98px) {
   .text-content {
     width: 100%;
+  }
+
+  .content {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .writing-list-all {
@@ -757,24 +760,24 @@ a.star-text03 {
   }
 
   #label {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .h2 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 16px;
   }
 
   a.star-text03 {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .type {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .date {
-    font-size: 17px;
+    font-size: 18px;
   }
 }
 
@@ -796,18 +799,6 @@ a.star-text03 {
     margin-top: 40px;
     margin-bottom: 40px;
     /* margin-bottom: 80px; */
-  }
-
-  a.star-text03 {
-    font-size: 17px;
-  }
-
-  .type {
-    font-size: 17px;
-  }
-
-  .date {
-    font-size: 17px;
   }
 }
 

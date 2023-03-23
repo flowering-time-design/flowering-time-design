@@ -508,7 +508,7 @@ body {
 }
 
 .text-content {
-  width: 100%;
+  width: 96%;
   height: 100%;
   padding-left: 80px;
   padding-right: 80px;
@@ -722,7 +722,7 @@ body {
   }
 
   .p-drawing {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .text-content1 {
@@ -736,11 +736,11 @@ body {
   }
 
   #star-text-id {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .star-text03 > span {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #label-all {
@@ -770,6 +770,7 @@ body {
   #text-content {
     padding-left: 20px;
     padding-right: 20px;
+    width: 95%;
   }
 
   #text-content2 {
@@ -796,7 +797,7 @@ body {
   }
 
   .p-drawing {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .text-content1 {
@@ -810,11 +811,11 @@ body {
   }
 
   #star-text-id {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .star-text03 > span {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   #labelc {
@@ -835,7 +836,9 @@ body {
   #text-content {
     padding-left: 40px;
     padding-right: 40px;
+    width: 95%;
   }
+
   #text-content2 {
     font-size: 28px;
   }
@@ -856,10 +859,6 @@ body {
   #text-content2 {
     font-size: 28px;
   }
-
-  /* #h2 {
-    font-size: 28px;
-  } */
 
   #text-content {
     padding-left: 40px;
@@ -882,13 +881,6 @@ body {
 
 /* lg - Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  #star-text-id {
-    font-size: 17px;
-  }
-
-  .star-text03 > span {
-    font-size: 17px;
-  }
 }
 
 /* xl - Extra large devices (large desktops, 1200px and up) */

@@ -632,7 +632,7 @@ body {
   }
 
   .p-drawing {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .star-animate {
@@ -706,11 +706,11 @@ body {
   }
 
   .star-text03 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #star-text-all > .star-text03 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .star-p {
@@ -748,7 +748,7 @@ body {
   }
 
   .p-drawing {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .star-animate {
@@ -818,15 +818,15 @@ body {
   }
 
   .star-text03 {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   #star-p-active02 > .star-text03 {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   #star-text-all > .star-text03 {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .star-p {
@@ -1010,25 +1010,20 @@ body {
     font-size: 17px;
   }
 
+  #star-text-all > .star-text03 {
+    font-size: 18px;
+  }
+
   .star-text03 {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   #star-p-active02 > .star-text03 {
-    font-size: 17px;
-  }
-
-  #star-text-all > .star-text03 {
-    font-size: 17px;
-    width: 350px;
-  }
-
-  #star-content {
-    padding-left: 80px;
+    font-size: 18px;
   }
 
   #star-text-id {
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 8px;
     line-height: 30px;
   }
@@ -1055,6 +1050,7 @@ body {
 /* section02 */
 .star-content {
   height: 100%;
+  width: 96%;
   padding-left: 80px;
   padding-right: 80px;
   display: flex;
@@ -1097,7 +1093,7 @@ body {
 
 .star-text03.s2 {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   text-align: justify;
 }
 
@@ -1129,6 +1125,7 @@ body {
   }
 
   #star-content {
+    width: 95%;
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
@@ -1154,13 +1151,13 @@ body {
   }
 
   #star-text-id {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 8px;
     line-height: 30px;
   }
 
   #star-p-active02 > #star-text-id {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 8px;
     line-height: 30px;
   }
@@ -1273,6 +1270,7 @@ body {
   }
 
   #star-content {
+    width: 95%;
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
@@ -1291,14 +1289,12 @@ body {
   }
 
   #star-p-active02 > #star-text-id {
-    font-size: 16px;
-    margin-top: 8px;
+    font-size: 18px;
     line-height: 30px;
   }
 
   #star-text-id {
-    font-size: 16px;
-    margin-top: 8px;
+    font-size: 18px;
     line-height: 30px;
   }
 
@@ -1315,57 +1311,57 @@ body {
   }
 
   #star-p-active03 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #a_id02 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #b_id02 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #c_id02 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #d_id02 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #e_id02 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #f_id02 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #star-p-active02 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
@@ -1388,6 +1384,7 @@ body {
 /* sm - Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   #star-content {
+    width: 96%;
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
@@ -1406,57 +1403,57 @@ body {
   }
 
   #star-p-active03 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #a_id02 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #b_id02 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #c_id02 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #d_id02 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #e_id02 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #f_id02 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #star-p-active02 {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
@@ -1486,8 +1483,8 @@ body {
   }
 
   #star-content {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1503,57 +1500,55 @@ body {
   }
 
   #star-p-active03 {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     margin-left: 0;
   }
 
   #a_id02 {
-    width: 80%;
-    height: 80%;
     margin-bottom: 40px;
     margin-left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   #b_id02 {
-    width: 80%;
-    height: 80%;
     margin-bottom: 40px;
     margin-left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   #c_id02 {
-    width: 80%;
-    height: 80%;
     margin-bottom: 40px;
     margin-left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   #d_id02 {
-    width: 80%;
-    height: 80%;
     margin-bottom: 40px;
     margin-left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   #e_id02 {
-    width: 80%;
-    height: 80%;
     margin-bottom: 40px;
     margin-left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   #f_id02 {
-    width: 80%;
-    height: 80%;
     margin-bottom: 40px;
     margin-left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   #star-p-active02 {
-    width: 80%;
-    height: 80%;
     margin-bottom: 40px;
     margin-left: 0;
   }
@@ -1571,7 +1566,7 @@ body {
   }
 
   #star-p-active02 > #star-text-id {
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 8px;
     line-height: 30px;
   }
@@ -1820,10 +1815,4 @@ body {
 
 .more {
   color: #ad7d37;
-  transition: all 0.5s;
-  transition-duration: 0.5s;
-}
-
-.more:hover {
-  color: #d2ad75;
 }
