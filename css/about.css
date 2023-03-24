@@ -1024,9 +1024,6 @@ body {
 
 /*========= レイアウトのためのCSS ===============*/
 
-section {
-  /* padding: 30px; */
-}
 section:first-child {
   padding: 0px 0px 0px;
 }
@@ -1102,7 +1099,8 @@ section:first-child {
 .slider {
   /*横幅94%で左右に余白を持たせて中央寄せ*/
   width: 820px;
-  margin-top: 32px;
+  /* margin-top: 32px; */
+  margin: auto;
   z-index: 10;
   position: relative;
   display: flex;
@@ -1133,7 +1131,6 @@ section:first-child {
 .slick-list {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .slider .slick-slide {
