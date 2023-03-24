@@ -22,6 +22,7 @@ body {
 
 .menu {
   height: 48px;
+  /* padding: 16px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +36,6 @@ body {
 .text-bold {
   color: #d2ad75;
 }
-
 .logo {
   margin-left: 32px;
   color: #d2ad75;
@@ -76,6 +76,88 @@ body {
 .theme:hover {
   background-size: 100% 1px;
   color: #d2ad75;
+}
+
+.section02 {
+  width: 96%;
+  height: 100%;
+  padding-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drawing-inside {
+  width: 900px;
+}
+
+.drawing-inside > img {
+  border-radius: 0.8rem;
+}
+
+.star-text01 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #d2ad75;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.star-text02 {
+  color: #d2ad75;
+  font-size: 32px;
+  margin-left: 16px;
+}
+
+.text-content {
+  text-align: justify;
+}
+
+.star-text03 {
+  font-size: 20px;
+  color: white;
+  margin-top: 40px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.yellow {
+  font-size: 20px;
+  line-height: 30px;
+  color: #d2ad75;
+  font-weight: 400;
+}
+
+.animate__fadeInLeft {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.type {
+  width: auto;
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: #d2ad75;
+}
+
+.text-button {
+  width: 100%;
+  height: 100%;
+  text-align: end;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 40px;
+  font-weight: 400;
+}
+
+.date {
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: #d2ad75;
+  font-style: italic;
+  width: auto;
 }
 
 /* 漢堡選單 */
@@ -174,7 +256,6 @@ body {
   background-color: #242424;
   align-items: center;
   flex-direction: column;
-  z-index: -5;
 }
 
 .wrap-border {
@@ -183,18 +264,19 @@ body {
   position: absolute;
   border-left: #d2ad75 0.5px solid;
   border-right: #d2ad75 0.5px solid;
-  z-index: -5;
+  z-index: 0;
 }
 
 .section01 {
+  background-color: #242424;
   display: flex;
   flex-direction: column;
   /* 同一層排中間 */
   align-items: center;
   justify-content: center;
   height: 196px;
-  background-color: #242424;
   border-bottom: 0.5px solid #d2ad75;
+  z-index: 10;
 }
 
 .subtitle-drawing {
@@ -209,138 +291,12 @@ body {
   font-size: 20px;
   font-weight: 300;
   text-align: center;
-  color: white;
-}
-
-.figwrap {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.figmom {
-  width: 96%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-left: #d2ad75 0.5px solid;
-  border-right: #d2ad75 0.5px solid;
-}
-
-.figma {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-left: 80px;
-  padding-right: 80px;
-}
-
-.tealab {
-  display: block;
-  width: 900px;
-  height: 100%;
-}
-
-.text-content {
-  width: 900px;
-  height: 100%;
-  text-align: justify;
-}
-
-.iframe-figma {
-  width: 100%;
-  height: 100%;
-  border-bottom: #d2ad75 0.5px solid;
-}
-
-.h2 {
-  margin-top: 40px;
-  font-size: 32px;
-  font-weight: 500;
-  margin-bottom: 32px;
-  color: #d2ad75;
-  text-align: center;
-}
-
-.h2 > span {
-  margin-top: 40px;
-  color: #d2ad75;
-  text-align: center;
-}
-
-.star-text03 {
-  font-size: 20px;
-  line-height: 30px;
-  color: white;
-  font-weight: 300;
-  margin-bottom: 40px;
-}
-.star-text03 > span {
-  font-size: 20px;
-  line-height: 30px;
-  color: white;
-}
-
-.button.active {
-  background: #40bad2;
-  border-color: transparent;
-  color: white;
-}
-
-.a_figma {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  position: relative;
-  z-index: 10;
-  border-top: #d2ad75 0.5px solid;
-}
-
-.button {
-  height: 3rem;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  padding-top: 0.375rem;
-  padding-bottom: 0.375rem;
-  border-radius: 16px;
-  transition: all 0.5s;
-  font-weight: 500;
-  font-size: 16px;
-}
-
-.button-primary {
-  background: #40bad2;
-  border-color: transparent;
-  color: white;
-  transition: all 0.5s;
-}
-
-.button:hover {
-  scale: 110%;
-}
-
-.gap-2 {
-  padding-bottom: 40px;
-  padding-top: 40px;
+  color: rgb(230, 230, 230);
 }
 
 /* RWD */
 /* xs - Extra small devices (portrait phones, less than 426px) */
 @media (max-width: 425.98px) {
-  .wrap-border {
-    width: 95%;
-  }
-
-  .figmom {
-    width: 95%;
-  }
   .logo {
     font-size: 14px;
   }
@@ -356,81 +312,13 @@ body {
   .p-drawing {
     font-size: 16px;
   }
-  .button {
-    font-size: 14px;
-    height: 2.4rem;
-  }
-
-  .gap-2 {
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
-
-  .figmom {
-    width: 95%;
-    position: relative;
-    z-index: -10;
-  }
-
-  .figma {
-    width: 100%;
-  }
-
-  .h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-
-  #star-text-id {
-    font-size: 16px;
-  }
-
-  #star-text-id > span {
-    font-size: 16px;
-  }
-
-  .figma {
-    width: 100%;
-    padding: 0 0px;
-  }
-
-  .text-content {
-    width: 100%;
-    padding: 0 20px;
-  }
-
-  .tealab {
-    width: 100%;
+  .section02 {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
 @media (min-width: 426px) and (max-width: 575.98px) {
-  .wrap-border {
-    width: 95%;
-  }
-
-  .figmom {
-    width: 95%;
-    position: relative;
-    z-index: -10;
-  }
-
-  .figma {
-    width: 100%;
-  }
-
-  .h2 {
-    font-size: 28px;
-  }
-
-  #star-text-id {
-    font-size: 18px;
-  }
-
-  #star-text-id > span {
-    font-size: 18px;
-  }
-
   .subtitle-drawing {
     font-size: 40px;
   }
@@ -438,85 +326,18 @@ body {
   .p-drawing {
     font-size: 18px;
   }
-
-  .figma {
-    width: 100%;
-    padding: 0 0px;
+  .section02 {
+    padding-left: 40px;
+    padding-right: 40px;
   }
-
-  .text-content {
-    width: 100%;
-    padding: 0 40px;
-  }
-
-  .tealab {
-    width: 100%;
-  }
-}
-
-/* sm - Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .figmom {
-    width: 96%;
-    position: relative;
-    z-index: -10;
-  }
-
-  .figma {
-    width: 100%;
-    padding: 0 0px;
-  }
-
-  .text-content {
-    width: 100%;
-    padding: 0 40px;
-  }
-
-  .tealab {
-    width: 100%;
-  }
-}
-
-/* md - Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .figmom {
-    width: 96%;
-    position: relative;
-    z-index: -10;
-  }
-
-  .tealab {
-    width: 100%;
-  }
-
-  .figma {
-    padding: 0 0px;
-  }
-
-  .text-content {
-    width: 100%;
-    padding: 0 80px;
-  }
-}
-
-/* lg - Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .text-content {
-    width: 100%;
-  }
-
-  .tealab {
-    width: 100%;
-  }
-}
-
-/* xl - Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
 }
 
 /* RWD */
 /* xs - Extra small devices (portrait phones, less than 426px) */
 @media (max-width: 425.98px) {
+  .wrap-border {
+    width: 95%;
+  }
   #contact {
     height: 96px;
   }
@@ -528,12 +349,43 @@ body {
   #copyright {
     font-size: 10px;
   }
+
   #gotop {
     right: 15px;
+  }
+
+  .section02 {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 95%;
+  }
+
+  .star-text03 {
+    font-size: 16px;
+  }
+
+  .yellow {
+    font-size: 16px;
+  }
+
+  .text-button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .type {
+    font-size: 16px;
+  }
+
+  .date {
+    font-size: 16px;
   }
 }
 
 @media (min-width: 426px) and (max-width: 575.98px) {
+  .wrap-border {
+    width: 95%;
+  }
   #contact {
     height: 96px;
   }
@@ -545,8 +397,36 @@ body {
   #copyright {
     font-size: 12px;
   }
+
   #gotop {
     right: 15px;
+  }
+
+  .section02 {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 95%;
+  }
+
+  .star-text03 {
+    font-size: 18px;
+  }
+
+  .yellow {
+    font-size: 18px;
+  }
+
+  .text-button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .type {
+    font-size: 18px;
+  }
+
+  .date {
+    font-size: 18px;
   }
 }
 
@@ -555,12 +435,21 @@ body {
   #gotop {
     right: 15px;
   }
+  .section02 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 /* md - Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   #link-group > #contact {
     display: none;
+  }
+
+  .section02 {
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
 
@@ -599,8 +488,8 @@ body {
 }
 #gotop :hover {
   background: #d2ad75;
-  border-radius: 50%;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 .arrow {
@@ -623,7 +512,7 @@ body {
   /* 同一層排中間 */
   align-items: center;
   justify-content: center;
-  background-color: #242424;
+  background: #242424;
   border-top: #d2ad75 0.5px solid;
 }
 
