@@ -1106,6 +1106,8 @@ section:first-child {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 #island-dl .slider .slick-slide {
@@ -1519,6 +1521,8 @@ section:first-child {
 
   .slider {
     width: 100%;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
 
   .slider img {
@@ -1556,16 +1560,6 @@ section:first-child {
 
   .row {
     --bs-gutter-x: 0rem;
-  }
-}
-
-@media only screen and (max-width: 480px) and (orientation: portrait) {
-  .slider {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-    justify-items: center;
   }
 }
 
