@@ -170,7 +170,6 @@ lightbox.option({
 //ふわっと見せるためのJS。3-5-3 ページが読み込まれたらすぐに動かしたい&画面をスクロールをしたら動かしたい場合内のソースコード使用
 
 function fadeAnime() {
-  // flipLeft
   $(".gallery li").each(function () {
     var elemPos = $(this).offset().top;
     var scroll = $(window).scrollTop();
