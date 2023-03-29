@@ -343,6 +343,8 @@ body {
   overflow: hidden;
   text-align: center;
   border: 1px solid #d2ad75;
+  position: relative;
+  z-index: 10;
 }
 
 .door-img {
