@@ -545,7 +545,7 @@ body {
 }
 .star-text03 > span {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 40px;
   color: white;
 }
 
@@ -728,10 +728,12 @@ body {
 
   #star-text-id {
     font-size: 16px;
+    line-height: 30px;
   }
 
   .star-text03 > span {
     font-size: 16px;
+    line-height: 30px;
   }
 
   #label-all {
@@ -803,10 +805,12 @@ body {
 
   #star-text-id {
     font-size: 18px;
+    line-height: 30px;
   }
 
   .star-text03 > span {
     font-size: 18px;
+    line-height: 30px;
   }
 
   #labelc {

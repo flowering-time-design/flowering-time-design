@@ -331,7 +331,7 @@ body {
   text-align: start;
   color: white;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 40px;
   font-weight: 300;
 }
 
@@ -340,7 +340,7 @@ body {
   margin-bottom: 16px;
   color: #d2ad75;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: normal;
 }
 
 .information.name > span {
@@ -360,11 +360,12 @@ body {
   color: #d2ad75;
   width: auto;
   text-align: justify;
+  line-height: normal;
 }
 
 .star-text03 {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 40px;
   color: white;
   text-align: justify;
   font-weight: 300;
@@ -375,14 +376,18 @@ body {
   font-weight: 500;
   font-size: 20px;
   display: flex;
-  margin-bottom: 8px;
   align-items: center;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 #yellow {
   margin-bottom: 0px;
-  margin-top: 16px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+
+.yellow-group {
+  margin-top: 40px;
 }
 
 .yellow-text {
@@ -506,7 +511,6 @@ body {
 /*ギャラリー内のイメージは横幅100%にする*/
 .gallery img {
   width: 100%;
-  border-radius: 0.375rem;
   height: auto;
   vertical-align: bottom; /*画像の下にできる余白を削除*/
 }
@@ -778,20 +782,21 @@ body {
   font-weight: 500;
   color: #d2ad75;
   font-family: "Noto Sans TC", sans-serif;
+  line-height: normal;
 }
 
 .star-text02 {
   font-size: 32px;
   margin-left: 16px;
   color: #d2ad75;
+  line-height: normal;
 }
 
 .section03 > .star-text-all > .star-text03 {
   font-size: 20px;
   color: white;
   margin-top: 16px;
-  line-height: 30px;
-  /* letter-spacing: 2px; */
+  line-height: 40px;
   font-weight: 300;
   width: 900px;
   text-align: justify;
@@ -801,19 +806,15 @@ body {
   font-size: 20px;
   color: white;
   font-family: "Noto Sans TC", sans-serif;
-  /* margin-bottom: 36px;
-  margin-top: 16px; */
   text-align: center;
-  line-height: 25px;
+  line-height: 40px;
   font-weight: 300;
 }
 
 .star-p01 {
   font-size: 20px;
   color: white;
-  /* margin-bottom: 36px;
-  margin-top: 16px; */
-  /* letter-spacing: 1px; */
+  line-height: 40px;
 }
 
 .img-all {
@@ -923,14 +924,15 @@ body {
   color: #d2ad75;
   text-align: start;
   width: auto;
+  line-height: normal;
 }
 
 .rewrite {
   font-weight: 500;
-  margin-top: 16px;
   color: #d2ad75;
   text-align: center;
   font-size: 20px;
+  line-height: 40px;
 }
 
 .star-text01.s2 {
@@ -940,7 +942,6 @@ body {
 .star-text02.s2 {
   display: block;
   text-align: center;
-  margin-top: 5px;
 }
 
 .star-text03.s2 {
@@ -948,6 +949,7 @@ body {
   font-size: 20px;
   text-align: justify;
   margin-top: 16px;
+  line-height: 40px;
 }
 
 .island-story {
@@ -1118,7 +1120,6 @@ section:first-child {
 .slider img {
   width: auto; /*スライダー内の画像を60vwにしてレスポンシブ化*/
   height: 400px;
-  border-radius: 0.375rem;
   display: inline-block;
 }
 
@@ -1295,15 +1296,22 @@ section:first-child {
 
   .star-text03 {
     font-size: 16px;
+    line-height: 30px;
   }
 
   #star-text-all > .star-text03 {
     font-size: 16px;
     width: 100%;
+    line-height: 30px;
   }
 
   .yellow {
     font-size: 16px;
+    line-height: 30px;
+  }
+
+  #yellow {
+    line-height: 30px;
   }
 
   .writing-list {
@@ -1363,6 +1371,7 @@ section:first-child {
 
   .information {
     font-size: 16px;
+    line-height: 30px;
   }
 
   .door-side {
@@ -1446,10 +1455,12 @@ section:first-child {
 
   .star-p {
     font-size: 12px;
+    line-height: 30px;
   }
 
   .star-p01 {
     font-size: 12px;
+    line-height: 30px;
   }
 
   .star-in {
@@ -1480,10 +1491,12 @@ section:first-child {
 
   .star-text03.s2 {
     font-size: 16px;
+    line-height: 30px;
   }
 
   .rewrite {
     font-size: 16px;
+    line-height: 30px;
   }
 
   .label-group {
@@ -1597,6 +1610,7 @@ section:first-child {
 
   .star-text03 {
     font-size: 18px;
+    line-height: 30px;
   }
 
   #star-p-active02 > .star-text03 {
@@ -1606,6 +1620,7 @@ section:first-child {
   #star-text-all > .star-text03 {
     font-size: 18px;
     width: 100%;
+    line-height: 30px;
   }
   .h2 {
     font-size: 28px;
@@ -1727,10 +1742,16 @@ section:first-child {
 
   .information {
     font-size: 18px;
+    line-height: 30px;
   }
 
   .yellow {
     font-size: 18px;
+    line-height: 30px;
+  }
+
+  #yellow {
+    line-height: 30px;
   }
 
   .img-all {
@@ -1747,10 +1768,12 @@ section:first-child {
 
   .star-p {
     font-size: 15px;
+    line-height: 30px;
   }
 
   .star-p01 {
     font-size: 15px;
+    line-height: 30px;
   }
 
   .star-in {
@@ -1781,10 +1804,12 @@ section:first-child {
 
   .star-text03.s2 {
     font-size: 18px;
+    line-height: 30px;
   }
 
   .rewrite {
     font-size: 18px;
+    line-height: 30px;
   }
 
   .label-group {
