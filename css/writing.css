@@ -361,6 +361,7 @@ body {
   display: block;
   margin-bottom: 32px;
   color: #d2ad75;
+  line-height: normal;
 }
 
 .h2:hover {
@@ -369,7 +370,7 @@ body {
 
 a.star-text03 {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 40px;
   color: white;
   font-weight: 300;
 }
@@ -521,6 +522,7 @@ a.star-text03 {
 
   a.star-text03 {
     font-size: 16px;
+    line-height: 30px;
   }
 
   .text-button {
@@ -638,6 +640,7 @@ a.star-text03 {
 
   a.star-text03 {
     font-size: 18px;
+    line-height: 30px;
   }
 
   .type {

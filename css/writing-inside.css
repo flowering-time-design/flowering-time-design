@@ -140,13 +140,8 @@ body {
   justify-content: center;
 }
 
-.drawing-text > img {
-  border-radius: 0.8rem;
-}
-
 .img-in {
   margin-top: 40px;
-  border-radius: 0.8rem;
 }
 
 .star-text01 {
@@ -155,6 +150,7 @@ body {
   color: #d2ad75;
   font-family: "Noto Sans TC", sans-serif;
   margin-bottom: 24px;
+  line-height: normal;
 }
 
 .star-text02 {
@@ -171,7 +167,7 @@ body {
 .star-text03 {
   font-size: 20px;
   color: white;
-  line-height: 30px;
+  line-height: 40px;
   font-weight: 300;
 }
 
@@ -191,7 +187,7 @@ body {
 
 .yellow {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 40px;
   color: #d2ad75;
   font-weight: 400;
 }
@@ -252,7 +248,6 @@ body {
   overflow: hidden;
   position: relative;
   z-index: 10;
-  border-radius: 0.8rem;
 }
 
 .img-hidden > img {
@@ -476,10 +471,12 @@ body {
 
   .star-text03 {
     font-size: 16px;
+    line-height: 30px;
   }
 
   .yellow {
     font-size: 16px;
+    line-height: 30px;
   }
 
   .text-button {
@@ -493,6 +490,7 @@ body {
 
   .date {
     font-size: 16px;
+    line-height: 30px;
   }
 
   .star-text01 {
@@ -556,6 +554,7 @@ body {
 
   .star-text03 {
     font-size: 18px;
+    line-height: 30px;
   }
 
   .yellow {
@@ -573,6 +572,7 @@ body {
 
   .date {
     font-size: 18px;
+    line-height: 30px;
   }
 
   .drawing-inside {

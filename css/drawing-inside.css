@@ -94,10 +94,6 @@ body {
   width: 900px;
 }
 
-.drawing-inside > img {
-  border-radius: 0.8rem;
-}
-
 .star-text01 {
   font-size: 32px;
   font-weight: 500;
@@ -119,12 +115,12 @@ body {
   font-size: 20px;
   color: white;
   margin-top: 40px;
-  line-height: 30px;
+  line-height: 40px;
   font-weight: 300;
 }
 .yellow {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 40px;
   color: #d2ad75;
   font-weight: 400;
 }
@@ -362,10 +358,12 @@ body {
 
   .star-text03 {
     font-size: 16px;
+    line-height: 30px;
   }
 
   .yellow {
     font-size: 16px;
+    line-height: 30px;
   }
 
   .text-button {
@@ -410,10 +408,12 @@ body {
 
   .star-text03 {
     font-size: 18px;
+    line-height: 30px;
   }
 
   .yellow {
     font-size: 18px;
+    line-height: 30px;
   }
 
   .text-button {
